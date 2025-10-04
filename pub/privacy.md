@@ -1,3 +1,8 @@
+---
+layout: default
+title: Privacy Statement
+---
+
 # Privacy Policy for Ultra Tracker
 
 Last updated: Oct 1, 2025

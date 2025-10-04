@@ -32,6 +32,7 @@ _site/
 .jekyll-metadata
 
 # Ruby
+Gemfile.lock
 *.gem
 *.rbc
 /.config
