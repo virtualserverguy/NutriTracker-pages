@@ -1,66 +1,215 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: FAQ
+permalink: /faq/
 ---
 
-# About FuelFlow
+# Frequently Asked Questions
 
-## The Developer
-
-Hi! I’m **Tom Ralph**, an iOS developer with a passion for ultramarathon running. FuelFlow was born from my own struggles managing nutrition during long-distance events. I found existing apps too complex for on-the-move logging, so I built something better.
-
-My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you’re tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
-
-Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
+Find answers to common questions about FuelFlow.
 
 ---
 
-## Ultrarunning Results
+## Getting Started
 
-### Recent Races
+### What is FuelFlow?
+FuelFlow is a nutrition tracking app designed specifically for ultramarathon runners. It helps you monitor carbohydrate, sodium, and water intake in real-time during training runs and races, with seamless integration between iPhone and Apple Watch.
 
-**[Race Name]**  
-📅 Month Year | 📏 100 miles | ⏱️ 24:35:12 | 🏆 145/368
+### What devices do I need?
+FuelFlow works on:
+- iPhone running iOS 15.0 or later
+- Apple Watch running watchOS 8.0 or later
+- iCloud account for syncing between devices
 
-**[Race Name]**  
-📅 Month Year | 📏 100 kilometers | ⏱️ 12:18:33 | 🏆 89/325
+You can use FuelFlow on iPhone only, but the Apple Watch companion app provides the best experience for logging nutrition while running.
 
-**[Race Name]**  
-📅 Month Year | 📏 50 miles | ⏱️ 9:45:22 | 🏆 42/156
+### How much does FuelFlow cost?
+Pricing information will be available when the app launches on the App Store.
 
-[View my complete racing history on UltraSignup →](https://ultrasignup.com/results_participant.aspx?fname=Tom&lname=Ralph#)
-
----
-
-## The Story Behind FuelFlow
-
-### The Problem
-
-During my first 100-miler, I tried tracking nutrition with a spreadsheet on my phone. By mile 40, I was too exhausted to deal with unlocking my phone, opening the app, and tapping through menus. I ended up under-fueling and bonked hard at mile 70.
-
-### The Solution
-
-I knew I needed something that worked with an Apple Watch—something I could operate with one tap, even when my brain was foggy and my hands were clumsy. FuelFlow was designed to be:
-
-- **Fast**: Log food in under 2 seconds
-- **Simple**: No complex menus or data entry mid-run
-- **Reliable**: Works offline, syncs when you have signal
-- **Informative**: Real-time feedback on whether you’re hitting your targets
-
-### The Mission
-
-Help ultrarunners dial in their nutrition strategy so they can focus on the run, not on complicated tracking systems. Whether you’re training for your first ultra or chasing a podium finish, proper fueling shouldn’t be complicated.
+### Do I need an internet connection?
+No! FuelFlow works completely offline. Your data will automatically sync to iCloud when you have an internet connection, but you can log nutrition and track your runs without any connectivity.
 
 ---
 
-## Contact
+## Using FuelFlow
 
-Have questions or feedback? I’d love to hear from you!
+### How do I start a run?
+1. Open FuelFlow on your iPhone or Apple Watch
+2. Tap "Start Run" 
+3. Set your hourly goals for carbs, sodium, and water (or use defaults)
+4. Begin logging your nutrition as you consume it
 
-**General Inquiries**: [info@fuelflow.run](mailto:info@fuelflow.run)  
-**Technical Support**: [support@fuelflow.run](mailto:support@fuelflow.run)
+### How do I log food during a run?
+**On Apple Watch:**
+- Raise your wrist to wake the watch
+- Tap the food item you consumed
+- That's it! The app logs it instantly with a timestamp
+
+**On iPhone:**
+- Tap "Log Food"
+- Select the food item from your library
+- The consumption is logged immediately
+
+### What are the default nutrition goals?
+- **Carbs**: 60g per hour
+- **Sodium**: 500mg per hour  
+- **Water**: 0.5L per hour
+
+These are based on common ultrarunning guidelines, but you can adjust them based on your personal needs and race conditions.
+
+### Can I customize my goals during a run?
+Yes! You can adjust your hourly goals at any time during an active run. This is useful if conditions change (heat, altitude, effort level) or if you need to adjust your fueling strategy mid-race.
+
+### How does the food library work?
+FuelFlow comes pre-loaded with common ultrarunning nutrition items including:
+- Energy gels from major brands
+- Sports drinks and electrolyte mixes
+- Aid station staples (pretzels, cookies, fruit, cola, etc.)
+- Real food options
+
+You can also add custom food items with your own carb counts, sodium content, and serving sizes.
+
+### Can I edit or delete food items?
+Yes! You have full control over your food library. You can:
+- Add new custom items
+- Edit existing items (including pre-loaded ones)
+- Delete items you don't use
+- Organize by category (Gel, Food, Drink)
 
 ---
 
-[Download FuelFlow](#){: .btn .btn-primary}
+## Data & Sync
+
+### How does syncing work between devices?
+FuelFlow uses Apple's CloudKit to sync data between your iPhone and Apple Watch. Any changes to your food library or active run session automatically sync across all your devices signed in with the same iCloud account.
+
+### What if I'm in airplane mode during a race?
+No problem! FuelFlow works completely offline. All your logging will be saved locally, and the data will sync to iCloud once you're back online.
+
+### Can I use FuelFlow on multiple iPhones or Apple Watches?
+Yes, as long as all devices are signed in with the same iCloud account. Your food library and run history will stay in sync across all devices.
+
+### Is my data private?
+Absolutely. Your nutrition data is stored in your private iCloud account. FuelFlow doesn't have access to your data, and we never share information with third parties. No ads, no tracking.
+
+### Can I delete my data?
+Yes. You can delete individual food items, run sessions, or all your data directly from the app. You can also manage your iCloud data through your device settings.
+
+---
+
+## During Your Run
+
+### What if I forget to log something?
+After your run, you can review your consumption log with timestamps. While you can't edit past entries in the current version, you can make notes for your analysis.
+
+### How accurate is the hourly breakdown?
+Very accurate! FuelFlow tracks consumption down to the second and calculates rates based on actual elapsed time, not just rounded hours. This means if you're 30 minutes into hour 2, it calculates your rate based on 1.5 hours, not 2 hours.
+
+### Can I see my progress in real-time?
+Yes! Both the iPhone and Apple Watch show live progress bars for carbs, sodium, and water, displaying your current consumption versus your hourly goals.
+
+### What if I bonk and forget to end my run?
+No worries! You can end a run at any time, even hours or days later. The app tracks the actual time you started, so your hourly calculations will still be accurate.
+
+---
+
+## After Your Run
+
+### How do I export my run data?
+1. Go to the "Export" or "Past Runs" section
+2. Select the run you want to export
+3. Tap "Export Report"
+4. Share via Messages, Mail, AirDrop, or save to Files
+
+### What's included in the export?
+The exported report includes:
+- Run duration and date
+- Total consumption (carbs, sodium, water)
+- Overall average rates per hour
+- Detailed hourly breakdown
+- Complete consumption log with timestamps
+
+### Can I compare multiple runs?
+The app displays your past runs in a list. While there's no built-in comparison feature yet, you can export multiple runs and analyze them side by side.
+
+### How long is run data stored?
+Your run data is stored indefinitely in your iCloud account until you choose to delete it.
+
+---
+
+## Troubleshooting
+
+### FuelFlow isn't syncing between my devices
+Check these things:
+1. Ensure you're signed in to iCloud on both devices
+2. Verify you have an internet connection
+3. Check that iCloud Drive is enabled in Settings
+4. Try force-quitting and reopening the app
+
+### My Apple Watch app isn't showing my food library
+First, make sure your iPhone and Apple Watch are syncing. The food library is managed on iPhone and syncs to the Watch. If items aren't appearing, try:
+1. Opening FuelFlow on iPhone to trigger a sync
+2. Ensuring both devices have an internet connection
+3. Restarting both devices
+
+### I'm not receiving progress updates
+Make sure you have an active run session started. Progress bars only appear during an active run. If you have a run active but aren't seeing updates, try:
+1. Force-quitting and reopening the app
+2. Checking that your goals are set to reasonable values
+3. Logging at least one item to see the progress update
+
+### The app is using too much battery on my Watch
+To conserve battery during long runs:
+1. Lower your Watch's screen brightness
+2. Use Theater Mode to prevent accidental wake-ups
+3. Disable unnecessary Watch complications
+4. Consider using Low Power Mode for runs over 6 hours
+
+---
+
+## Race Day Tips
+
+### Should I test FuelFlow before race day?
+Absolutely! Use FuelFlow during your training runs to:
+- Get comfortable with the interface
+- Build your food library with your preferred nutrition
+- Dial in your hourly goals
+- Practice logging while running
+
+### What's the best way to use FuelFlow during a 100-miler?
+1. **Pre-load your food library** with everything you plan to consume
+2. **Set conservative goals** - it's better to over-fuel than under-fuel
+3. **Use the Apple Watch** for quick logging without stopping
+4. **Check your hourly breakdown** at aid stations to adjust strategy
+5. **Don't stress over perfect logging** - it's a tool to help, not add pressure
+
+### Can my crew or pacer help with logging?
+While the app is designed for solo use, your crew can help by:
+- Reminding you to log nutrition
+- Checking your progress at aid stations
+- Helping you adjust goals based on how you're feeling
+- Reviewing hourly data to identify fueling issues
+
+---
+
+## Feature Requests & Feedback
+
+### How do I suggest a new feature?
+We love hearing from users! Email your suggestions to [info@fuelflow.run](mailto:info@fuelflow.run). Popular requests that align with our mission of simple, fast nutrition tracking will be considered for future updates.
+
+### Can you add [specific food brand/item]?
+While we can't add every food item to the default library, you can easily add custom items yourself. If you think a food should be in the default library, let us know at [info@fuelflow.run](mailto:info@fuelflow.run).
+
+### Will you add training plans or workout tracking?
+FuelFlow is laser-focused on nutrition tracking during runs. We intentionally don't include workout tracking, training plans, or other features to keep the app simple and fast. There are excellent apps for those purposes that integrate well with FuelFlow.
+
+---
+
+## Still Have Questions?
+
+Can't find the answer you're looking for? Contact us:
+
+- **General Questions**: [info@fuelflow.run](mailto:info@fuelflow.run)
+- **Technical Support**: [support@fuelflow.run](mailto:support@fuelflow.run)
+
+[Back to Home](/){: .btn .btn-secondary}
