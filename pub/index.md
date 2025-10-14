@@ -1,53 +1,54 @@
----
-layout: default
+——
+
+## layout: home
 title: Home
----
 
-# Welcome to NutrιTracker
+# FuelFlow
 
-**Precision nutrition tracking for ultra marathon athletes**
+**Real-time nutrition tracking for ultramarathon runners**
 
-NutrιTracker is purpose-built for endurance athletes who demand precise nutrition management during ultra marathon training and events. Monitor your fuel intake, electrolyte balance, and caloric consumption in real-time to optimize performance and avoid the dreaded bonk.
+Track your carbs, sodium, and water intake during training and race day with FuelFlow. Designed for ultrarunners who need fast, simple nutrition tracking on the move.
 
-## Why Choose NutrιTracker?
+[Download on App Store](#){: .btn .btn-primary}
 
-### Race Day Fuel Management
-Track your nutrition intake during ultra marathons with ease. Log gels, bars, real food, and hydration on the go. Monitor calories per hour, carbohydrate intake, and electrolyte consumption to maintain optimal energy levels throughout your event.
+——
 
-### Training Nutrition Optimization
-Perfect your fueling strategy during training runs. Test different nutrition approaches, identify what works for your body, and build a race day plan based on real data from your long runs.
+## Why FuelFlow?
 
-### Electrolyte Balance Tracking
-Monitor sodium, potassium, magnesium, and other critical electrolytes. Prevent cramping and maintain performance by ensuring proper electrolyte intake during long efforts.
+### ⌚ Apple Watch Ready
 
-### Aid Station Planning
-Pre-plan your nutrition strategy for race day. Know exactly what you need at each aid station, track cumulative intake, and adjust on the fly based on how you're feeling.
+Quick-log food consumption directly from your wrist during runs without pulling out your phone.
 
-## Built for Endurance
+### 📊 Real-Time Tracking
 
-### Time-Based Tracking
-Log nutrition by time intervals rather than meals. Track intake per hour to maintain consistent fueling rates during ultra distances.
+Monitor carbs, sodium, and water intake with live progress toward your hourly goals.
 
-### Portable & Fast
-Designed for quick entry during runs. Log your nutrition in seconds without breaking stride or fumbling with complicated interfaces.
+### ☁️ CloudKit Sync
 
-### Ultra-Specific Database
-Access nutrition information for popular ultra marathon fuels including energy gels, chews, bars, trail mix, boiled potatoes, pickles, broth, and other aid station staples.
+Seamless synchronization between iPhone and Apple Watch via iCloud.
+
+### 🍎 Custom Food Library
+
+Pre-loaded with common ultra foods (gels, aid station items) plus add your own favorites.
+
+### 📈 Hourly Breakdown
+
+See detailed consumption stats for each hour of your run with actual rates and averages.
+
+### 📤 Export Reports
+
+Generate and share detailed nutrition reports with timestamps and summary statistics.
+
+——
+
+## Built by Runners, for Runners
+
+FuelFlow was created by ultrarunner Tom Ralph, who understands the challenges of managing nutrition during long-distance events. Every feature reflects real trail experience, from quick-tap logging to real-time hourly tracking.
+
+Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
+
+——
 
 ## Get Started Today
 
-Ready to dial in your ultra marathon nutrition? Join endurance athletes who have transformed their race performance through strategic fueling.
-
-[Get Started](#) | [Learn More](/features)
-
----
-
-## What Ultra Runners Say
-
-> "NutrιTracker helped me nail my nutrition during my first 100-miler. I knew exactly how many calories and how much sodium I was getting at every aid station."
-> 
-> — Sarah M., Western States finisher
-
-> "Finally, a tracking tool that understands endurance athletes. The hourly tracking feature is perfect for long training runs and race day."
-> 
-> — James K., ultra marathon coach
+[Download FuelFlow](#){: .btn .btn-primary} [View Screenshots](/screenshots){: .btn .btn-secondary}

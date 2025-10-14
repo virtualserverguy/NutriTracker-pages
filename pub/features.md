@@ -1,100 +1,95 @@
----
-layout: default
+——
+
+## layout: page
 title: Features
----
+permalink: /features/
 
 # Features
 
-Discover how NutrιTracker helps ultra marathon athletes optimize their race day nutrition and training fueling strategies.
+Discover everything FuelFlow has to offer to help you achieve your ultrarunning nutrition goals.
+
+——
 
 ## Core Features
 
-### Race Day Tracking
-Log your nutrition in real-time during ultra marathon events. Quick entry interface designed for use while running. Track every gel, bar, snack, and drink without slowing down your pace.
+### Apple Watch Integration
 
-### Hourly Intake Monitoring
-Track calories and carbohydrates per hour to maintain optimal fueling rates. Set target ranges based on your training experience and adjust as needed during events.
+Log food and water consumption directly from your wrist during runs. No need to pull out your phone—just tap and go. The Watch app displays your current progress and makes it easy to stay on top of your nutrition without breaking stride.
 
-### Electrolyte Management
-Monitor critical electrolytes:
-- Sodium intake and loss rates
-- Potassium balance
-- Magnesium levels
-- Calcium consumption
-- Chloride tracking
+### Real-Time Progress Tracking
 
-Prevent cramping and maintain performance through proper electrolyte balance during long efforts.
-
-### Ultra-Specific Food Database
-Access nutrition data for endurance athlete staples:
-- Energy gels and chews from all major brands
-- Sports drinks and electrolyte mixes
-- Energy bars and waffles
-- Aid station foods (boiled potatoes, bananas, pickles, PB&J, cookies)
-- Broth and salty snacks
-- Real food options for 50+ mile events
-
-### Aid Station Planning
-Pre-plan your race day strategy:
-- Map nutrition intake by aid station
-- Calculate cumulative calories and electrolytes
-- Set reminders for fueling intervals
-- Adjust plans based on course terrain and conditions
-- Export plans for crew members and pacers
-
-### Training Run Analysis
-Perfect your fueling during training:
-- Test different nutrition products and strategies
-- Identify optimal intake rates for various intensities
-- Track what works and what causes GI distress
-- Build confidence in your race day plan
-- Compare nutrition across multiple long runs
-
-### Hydration Tracking
-Monitor fluid intake and maintain proper hydration:
-- Track water and sports drink consumption
-- Set hydration targets based on conditions
-- Account for weather and elevation impacts
-- Monitor cumulative fluid intake
-
-### Calorie Deficit Tracking
-Understand your energy balance during ultras:
-- Estimate caloric expenditure based on effort and time
-- Track actual caloric intake
-- Monitor deficit to prevent complete depletion
-- Adjust fueling strategy based on remaining distance
-
-### Time-Based Logging
-Log by elapsed time rather than clock time. Perfect for tracking nutrition from start to finish, regardless of when you began your event.
-
-### Quick Stats Dashboard
-View critical metrics at a glance:
-- Current hourly calorie rate
-- Cumulative intake totals
-- Time since last fuel
-- Next planned nutrition point
-- Electrolyte balance status
-
-## Advanced Features
-
-### Multi-Event Comparison
-Compare nutrition strategies across different races and training runs. Identify patterns that lead to success or struggles.
+Monitor your carbs, sodium, and water intake with live progress bars showing how you’re tracking against your hourly goals. See at a glance if you’re ahead or behind your targets and adjust accordingly.
 
 ### Custom Food Library
-Add your own fuel sources and recipes. Calculate nutrition for homemade trail mix, crew-prepared foods, and favorite aid station combinations.
 
-### Weather-Adjusted Recommendations
-Get hydration and electrolyte suggestions based on temperature, humidity, and elevation conditions.
+Build your personal food library with items you commonly consume. The app comes pre-loaded with:
 
-### Crew & Pacer Sharing
-Share your nutrition plan and real-time tracking with crew members and pacers. Keep your support team informed of your needs.
+- Energy gels (various brands and flavors)
+- Aid station staples (pretzels, cookies, fruit, etc.)
+- Sports drinks and hydration products
+- Real food options for longer events
 
-### Post-Race Analysis
-Review complete nutrition data after events. Learn from each race to improve future performance.
+Add your own custom items with carb counts, sodium content, and serving sizes.
+
+### Hourly Breakdown
+
+View detailed consumption statistics broken down by hour:
+
+- Actual consumption per hour (grams/mg/liters)
+- Rate calculations accounting for partial hours
+- Compare hour 1 vs hour 2 vs hour 3
+- Identify patterns in your fueling strategy
+
+### Goal Setting
+
+Set custom nutrition targets based on your needs:
+
+- Carbs per hour (default: 60g)
+- Sodium per hour (default: 500mg)
+- Water per hour (default: 0.5L)
+
+Adjust goals on the fly based on conditions, effort level, or how you’re feeling.
+
+### CloudKit Sync
+
+Start a run on your iPhone, continue tracking on your Apple Watch, and export data from either device. All your food library items and active run sessions stay in sync via iCloud.
+
+### Water Logging
+
+Quick water logging with customizable amounts. Track hydration alongside nutrition to maintain optimal performance throughout your event.
 
 ### Export & Reports
-Generate detailed nutrition reports for coaches, nutritionists, or personal records. Export data for analysis in other tools.
 
----
+Generate comprehensive reports after your run:
 
-Ready to optimize your ultra marathon nutrition? [Get Started](#) or [Contact Us](/contact) to learn more.
+- Total consumption summary
+- Hourly breakdown with timestamps
+- Average rates across the entire run
+- Export as text for analysis or sharing with coaches
+
+### Session Management
+
+- Start and end run sessions with one tap
+- View active session status across devices
+- Access past run history
+- Resume interrupted sessions seamlessly
+
+——
+
+## Technical Details
+
+### Platforms
+
+- iOS 15.0 or later
+- watchOS 8.0 or later
+- iCloud account required for sync
+
+### Privacy
+
+- All data stored in your private iCloud account
+- No third-party data sharing
+- No ads or tracking
+
+——
+
+[Get Started](#){: .btn .btn-primary} [Contact Us](/contact){: .btn .btn-secondary}

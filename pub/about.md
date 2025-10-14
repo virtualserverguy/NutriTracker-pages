@@ -1,51 +1,66 @@
----
-layout: default
+——
+
+## layout: page
 title: About
----
+permalink: /about/
 
-# About NutrιTracker
+# About FuelFlow
 
-## Our Mission
+## The Developer
 
-NutrιTracker exists to help ultra marathon athletes optimize their nutrition and achieve their endurance goals. We believe that proper fueling is just as important as training, and we're dedicated to making race day nutrition management simple, effective, and data-driven.
+Hi! I’m **Tom Ralph**, an iOS developer with a passion for ultramarathon running. FuelFlow was born from my own struggles managing nutrition during long-distance events. I found existing apps too complex for on-the-move logging, so I built something better.
 
-## Our Story
+My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you’re tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
 
-NutrιTracker was born on the trails. After one too many bonks, stomach issues, and cramping episodes during ultra marathons, we realized that most nutrition tracking tools weren't built with endurance athletes in mind. Traditional apps focused on daily calorie counting and weight loss, not the unique demands of fueling 50, 100, or 200-mile efforts.
+Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
 
-We set out to create a tool specifically for ultra runners—something that could be used during races, that understood hourly calorie rates, that tracked electrolytes as carefully as energy intake, and that helped athletes perfect their fueling strategy before race day.
+——
 
-Since our launch, we've been used to track nutrition during thousands of ultra marathon finishes, from 50Ks to multi-day stage races. Our community includes weekend warriors tackling their first 50-miler and elite athletes competing at the front of the pack.
+## Ultrarunning Results
 
-## Our Values
+### Recent Races
 
-### Built by Runners, for Runners
-Every feature we develop is informed by real experience on the trails. We understand the challenges of fueling during ultras because we've faced them ourselves.
+**[Race Name]**  
+📅 Month Year | 📏 100 miles | ⏱️ 24:35:12 | 🏆 145/368
 
-### Simplicity Under Pressure
-When you're 60 miles into a hundred-miler, the last thing you need is a complicated app. We prioritize ease of use when it matters most—during the race.
+**[Race Name]**  
+📅 Month Year | 📏 100 kilometers | ⏱️ 12:18:33 | 🏆 89/325
 
-### Data-Driven Performance
-We believe in the power of data to improve performance. By tracking your nutrition carefully, you can identify what works, what doesn't, and continually optimize your approach.
+**[Race Name]**  
+📅 Month Year | 📏 50 miles | ⏱️ 9:45:22 | 🏆 42/156
 
-### Privacy & Security
-Your training data and race strategies are yours alone. We never sell your information or share it without your explicit permission.
+[View my complete racing history on UltraSignup →](https://ultrasignup.com/results_participant.aspx?fname=Tom&lname=Ralph#)
 
-## The Ultra Difference
+——
 
-Ultra marathon nutrition is fundamentally different from everyday eating or even marathon fueling:
-- **Duration**: Events lasting 6 to 30+ hours require sustained energy management
-- **Intensity**: Lower intensity allows for real food consumption and fat adaptation strategies
-- **Conditions**: Extreme weather, elevation changes, and night running all impact nutrition needs
-- **Cumulative Stress**: GI distress becomes a limiting factor as hours accumulate
-- **Individualization**: What works varies dramatically between athletes and must be tested
+## The Story Behind FuelFlow
 
-NutrιTracker is designed specifically for these unique challenges.
+### The Problem
 
-## Get in Touch
+During my first 100-miler, I tried tracking nutrition with a spreadsheet on my phone. By mile 40, I was too exhausted to deal with unlocking my phone, opening the app, and tapping through menus. I ended up under-fueling and bonked hard at mile 70.
 
-Have questions, feedback, or want to share your success story? We'd love to hear from you. [Contact us](/contact) to connect with the NutrιTracker team.
+### The Solution
 
----
+I knew I needed something that worked with an Apple Watch—something I could operate with one tap, even when my brain was foggy and my hands were clumsy. FuelFlow was designed to be:
 
-Join our community of ultra runners and start optimizing your race day nutrition today.
+- **Fast**: Log food in under 2 seconds
+- **Simple**: No complex menus or data entry mid-run
+- **Reliable**: Works offline, syncs when you have signal
+- **Informative**: Real-time feedback on whether you’re hitting your targets
+
+### The Mission
+
+Help ultrarunners dial in their nutrition strategy so they can focus on the run, not on complicated tracking systems. Whether you’re training for your first ultra or chasing a podium finish, proper fueling shouldn’t be complicated.
+
+——
+
+## Contact
+
+Have questions or feedback? I’d love to hear from you!
+
+**General Inquiries**: [info@fuelflow.run](mailto:info@fuelflow.run)  
+**Technical Support**: [support@fuelflow.run](mailto:support@fuelflow.run)
+
+——
+
+[Download FuelFlow](#){: .btn .btn-primary}
