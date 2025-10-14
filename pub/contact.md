@@ -1,14 +1,14 @@
-——
+---
 layout: page
 title: Contact
 permalink: /contact/
-——
+---
 
 # Get In Touch
 
 Have questions about FuelFlow? Need technical support? Want to share feedback? We’d love to hear from you!
 
-——
+---
 
 ## Contact Information
 
@@ -24,7 +24,7 @@ For app issues, bugs, sync problems, or technical questions:
 
 📧 **[support@fuelflow.run](mailto:support@fuelflow.run)**
 
-——
+---
 
 ## Frequently Asked Questions
 
@@ -48,13 +48,13 @@ Absolutely! Use the Export feature to generate detailed reports of your runs, in
 
 Yes. All your data is stored in your private iCloud account. We don’t have access to your information, and we don’t share data with third parties.
 
-——
+---
 
 ## Beta Testing
 
 Interested in testing new features before they’re released? Email us at [info@fuelflow.run](mailto:info@fuelflow.run) to join our TestFlight beta program.
 
-——
+---
 
 ## Follow FuelFlow
 
@@ -63,20 +63,20 @@ Stay updated on new features, tips, and ultrarunning nutrition advice:
 - **Twitter**: [@fuelflow](https://twitter.com/fuelflow)
 - **Instagram**: [@fuelflow.run](https://instagram.com/fuelflow.run)
 
-——
+---
 
 ## Legal
 
 - [Privacy Policy](/privacy)
 
-——
+---
 
 [Back to Home](/){: .btn .btn-secondary}
 # Get In Touch
 
 Have questions about FuelFlow? Need technical support? Want to share feedback? We’d love to hear from you!
 
-——
+---
 
 ## Contact Information
 
@@ -92,7 +92,7 @@ For app issues, bugs, sync problems, or technical questions:
 
 📧 **[support@fuelflow.run](mailto:support@fuelflow.run)**
 
-——
+---
 
 ## Frequently Asked Questions
 
@@ -116,13 +116,13 @@ Absolutely! Use the Export feature to generate detailed reports of your runs, in
 
 Yes. All your data is stored in your private iCloud account. We don’t have access to your information, and we don’t share data with third parties.
 
-——
+---
 
 ## Beta Testing
 
 Interested in testing new features before they’re released? Email us at [info@fuelflow.run](mailto:info@fuelflow.run) to join our TestFlight beta program.
 
-——
+---
 
 ## Follow FuelFlow
 
@@ -131,12 +131,12 @@ Stay updated on new features, tips, and ultrarunning nutrition advice:
 - **Twitter**: [@fuelflow](https://twitter.com/fuelflow)
 - **Instagram**: [@fuelflow.run](https://instagram.com/fuelflow.run)
 
-——
+---
 
 ## Legal
 
 - [Privacy Policy](/privacy)
 
-——
+---
 
 [Back to Home](/){: .btn .btn-secondary}
