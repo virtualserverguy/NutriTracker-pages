@@ -1,8 +1,8 @@
-—-
+---
 layout: page
 title: About
 permalink: /about/
-——
+---
 
 # About FuelFlow
 
@@ -29,7 +29,7 @@ Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling
 
 [View my complete racing history on UltraSignup →](https://ultrasignup.com/results_participant.aspx?fname=Tom&lname=Ralph#)
 
-——
+---
 
 ## The Story Behind FuelFlow
 
@@ -50,7 +50,7 @@ I knew I needed something that worked with an Apple Watch—something I could op
 
 Help ultrarunners dial in their nutrition strategy so they can focus on the run, not on complicated tracking systems. Whether you’re training for your first ultra or chasing a podium finish, proper fueling shouldn’t be complicated.
 
-——
+---
 
 ## Contact
 
@@ -59,6 +59,6 @@ Have questions or feedback? I’d love to hear from you!
 **General Inquiries**: [info@fuelflow.run](mailto:info@fuelflow.run)  
 **Technical Support**: [support@fuelflow.run](mailto:support@fuelflow.run)
 
-——
+---
 
 [Download FuelFlow](#){: .btn .btn-primary}
