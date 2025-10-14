@@ -1,8 +1,8 @@
-——
-
-## layout: page
+---
+layout: page
 title: About
 permalink: /about/
+---
 
 # About FuelFlow
 
@@ -13,8 +13,6 @@ Hi! I’m **Tom Ralph**, an iOS developer with a passion for ultramarathon runni
 My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you’re tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
 
 Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
-
-——
 
 ## Ultrarunning Results
 
@@ -31,7 +29,7 @@ Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling
 
 [View my complete racing history on UltraSignup →](https://ultrasignup.com/results_participant.aspx?fname=Tom&lname=Ralph#)
 
-——
+---
 
 ## The Story Behind FuelFlow
 
@@ -52,7 +50,7 @@ I knew I needed something that worked with an Apple Watch—something I could op
 
 Help ultrarunners dial in their nutrition strategy so they can focus on the run, not on complicated tracking systems. Whether you’re training for your first ultra or chasing a podium finish, proper fueling shouldn’t be complicated.
 
-——
+---
 
 ## Contact
 
@@ -61,6 +59,6 @@ Have questions or feedback? I’d love to hear from you!
 **General Inquiries**: [info@fuelflow.run](mailto:info@fuelflow.run)  
 **Technical Support**: [support@fuelflow.run](mailto:support@fuelflow.run)
 
-——
+---
 
 [Download FuelFlow](#){: .btn .btn-primary}

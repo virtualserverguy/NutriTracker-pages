@@ -1,8 +1,7 @@
-——
-
-layout: default
+---
+layout: page
 title: Home
-
+---
 # FuelFlow
 
 **Real-time nutrition tracking for ultramarathon runners**
@@ -11,7 +10,7 @@ Track your carbs, sodium, and water intake during training and race day with Fue
 
 [Download on App Store](#){: .btn .btn-primary}
 
-——
+---
 
 ## Why FuelFlow?
 
@@ -39,7 +38,7 @@ See detailed consumption stats for each hour of your run with actual rates and a
 
 Generate and share detailed nutrition reports with timestamps and summary statistics.
 
-——
+---
 
 ## Built by Runners, for Runners
 
@@ -47,7 +46,7 @@ FuelFlow was created by ultrarunner Tom Ralph, who understands the challenges of
 
 Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
 
-——
+---
 
 ## Get Started Today
 

@@ -1,14 +1,13 @@
-——
-
-## layout: page
+---
+layout: page
 title: Screenshots
 permalink: /screenshots/
-
+---
 # Screenshots
 
 See FuelFlow in action on iPhone and Apple Watch.
 
-——
+---
 
 ## iPhone App
 
@@ -47,7 +46,7 @@ See FuelFlow in action on iPhone and Apple Watch.
 ![Export Detail Screenshot](/assets/images/screenshots/iphone-export-detail.png)
 *Comprehensive run reports including hourly breakdown, timestamps, and summary statistics.*
 
-——
+---
 
 ## Apple Watch App
 
@@ -71,7 +70,7 @@ See FuelFlow in action on iPhone and Apple Watch.
 ![Watch Stats Screenshot](/assets/images/screenshots/watch-stats.png)
 *View elapsed time, total consumption, and current hourly rates at a glance.*
 
-——
+---
 
 ## Key Features Highlighted
 
@@ -95,7 +94,7 @@ Hourly breakdown shows consumption patterns throughout your run, helping you opt
 
 Start tracking on iPhone, continue on Apple Watch, export from either device. Everything stays in sync via iCloud.
 
-——
+---
 
 ## How to Capture Your Own Screenshots
 
@@ -113,12 +112,12 @@ Want to show off FuelFlow in your race reports or social media? Here’s how to 
 1. Screenshot saves to Photos on your iPhone
 1. Find it in Photos app > Screenshots album
 
-——
+---
 
 ## Coming Soon
 
 More screenshots will be added as new features are released. Check back for updates!
 
-——
+---
 
 [Download FuelFlow](#){: .btn .btn-primary} [View Features](/features){: .btn .btn-secondary}

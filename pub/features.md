@@ -1,14 +1,12 @@
-——
-
-## layout: page
+---
+layout: page
 title: Features
 permalink: /features/
+---
 
 # Features
 
 Discover everything FuelFlow has to offer to help you achieve your ultrarunning nutrition goals.
-
-——
 
 ## Core Features
 
@@ -74,7 +72,7 @@ Generate comprehensive reports after your run:
 - Access past run history
 - Resume interrupted sessions seamlessly
 
-——
+---
 
 ## Technical Details
 
@@ -90,6 +88,6 @@ Generate comprehensive reports after your run:
 - No third-party data sharing
 - No ads or tracking
 
-——
+---
 
 [Get Started](#){: .btn .btn-primary} [Contact Us](/contact){: .btn .btn-secondary}
