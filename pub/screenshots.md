@@ -1,9 +1,8 @@
 ——
-
-## layout: page
+layout: page
 title: Screenshots
 permalink: /screenshots/
-
+——
 # Screenshots
 
 See FuelFlow in action on iPhone and Apple Watch.

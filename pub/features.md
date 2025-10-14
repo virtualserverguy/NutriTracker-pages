@@ -1,14 +1,12 @@
 ——
-
-## layout: page
+layout: page
 title: Features
 permalink: /features/
+——
 
 # Features
 
 Discover everything FuelFlow has to offer to help you achieve your ultrarunning nutrition goals.
-
-——
 
 ## Core Features
 

@@ -1,8 +1,8 @@
-——
-
-## layout: page
+—-
+layout: page
 title: About
 permalink: /about/
+——
 
 # About FuelFlow
 
@@ -13,8 +13,6 @@ Hi! I’m **Tom Ralph**, an iOS developer with a passion for ultramarathon runni
 My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you’re tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
 
 Whether you’re tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
-
-——
 
 ## Ultrarunning Results
 

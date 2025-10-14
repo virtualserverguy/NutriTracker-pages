@@ -1,8 +1,7 @@
 ——
-
-layout: default
+layout: page
 title: Home
-
+——
 # FuelFlow
 
 **Real-time nutrition tracking for ultramarathon runners**
