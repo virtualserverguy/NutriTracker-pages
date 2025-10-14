@@ -1,8 +1,8 @@
-——
+---
 layout: page
 title: Privacy Policy
 permalink: /privacy/
-—-
+---
 
 # Privacy Policy
 
@@ -10,7 +10,7 @@ permalink: /privacy/
 
 This Privacy Policy describes how FuelFlow (“we”, “our”, or “the app”) collects, uses, and protects your information when you use our iOS and watchOS application.
 
-——
+---
 
 ## Our Commitment to Privacy
 
@@ -24,7 +24,7 @@ Your privacy is critically important to us. FuelFlow is designed with privacy as
 - No advertising or tracking
 - No analytics collection about your usage
 
-——
+---
 
 ## Information We Collect
 
@@ -50,7 +50,7 @@ When using FuelFlow, you create and manage the following data:
 - Usage analytics or statistics
 - Crash reports (unless you opt-in through iOS)
 
-——
+---
 
 ## How Your Data is Stored
 
@@ -74,7 +74,7 @@ Some data is cached locally on your device for offline functionality:
 
 This local data is stored securely on your device and is not accessible to other apps.
 
-——
+---
 
 ## How We Use Your Data
 
@@ -89,7 +89,7 @@ The app uses your data locally on your device to:
 - Generate export reports
 - Sync between your iPhone and Apple Watch
 
-——
+---
 
 ## Data Sharing
 
@@ -113,7 +113,7 @@ FuelFlow includes an export feature that allows **you** to share your run report
 - You initiate the export action
 - Exports happen through iOS’s native sharing system
 
-——
+---
 
 ## Third-Party Services
 
@@ -136,7 +136,7 @@ FuelFlow does not integrate with, connect to, or share data with any other third
 - Social media platforms
 - Health and fitness apps (unless you manually export and share data)
 
-——
+---
 
 ## Your Privacy Rights
 
@@ -174,7 +174,7 @@ You can delete your data at any time:
 
 **Important:** Deleting the app or its iCloud data is permanent and cannot be undone.
 
-——
+---
 
 ## Data Retention
 
@@ -194,7 +194,7 @@ When you delete data from FuelFlow:
 - It is removed from iCloud within 24 hours
 - It is permanently deleted and cannot be recovered
 
-——
+---
 
 ## Children’s Privacy
 
@@ -202,7 +202,7 @@ FuelFlow is not directed to children under the age of 13 (or the applicable age 
 
 Given that FuelFlow stores all data in the user’s iCloud account and we have no access to that data, we have no way to identify users by age.
 
-——
+---
 
 ## International Users
 
@@ -210,7 +210,7 @@ FuelFlow is available worldwide. If you use FuelFlow outside the United States, 
 
 Your use of FuelFlow and the storage of your data in iCloud is subject to Apple’s international data transfer practices as described in [Apple’s Privacy Policy](https://www.apple.com/legal/privacy/).
 
-——
+---
 
 ## Security
 
@@ -233,7 +233,7 @@ To keep your data secure:
 - Use a passcode or biometric authentication on your devices
 - Don’t share your devices with untrusted individuals
 
-——
+---
 
 ## Changes to This Privacy Policy
 
@@ -251,7 +251,7 @@ When we make changes:
 
 We encourage you to review this Privacy Policy periodically to stay informed about how we protect your information.
 
-——
+---
 
 ## App Store Privacy Labels
 
@@ -271,13 +271,13 @@ None
 
 You can review these labels in FuelFlow’s App Store listing.
 
-——
+---
 
 ## Cookie Policy
 
 FuelFlow does not use cookies, tracking pixels, or similar technologies. This privacy policy covers our app only, not our website (fuelflow.run), which may use standard web analytics.
 
-——
+---
 
 ## Contact Us
 
@@ -287,7 +287,7 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 
 **Response Time:** We aim to respond to all privacy inquiries within 48 hours.
 
-——
+---
 
 ## Legal Information
 
@@ -305,7 +305,7 @@ This Privacy Policy is governed by the laws of the United States and the state w
 
 Any disputes relating to this Privacy Policy will be resolved through good faith negotiations. If negotiations fail, disputes may be submitted to binding arbitration in accordance with the laws of the applicable jurisdiction.
 
-——
+---
 
 ## Compliance
 
@@ -318,7 +318,7 @@ FuelFlow is designed to comply with:
 
 Because we do not collect, store, or process your personal data on our servers, many provisions of these laws (such as data access requests or deletion requests) are handled directly by you through the app interface and your iCloud settings.
 
-——
+---
 
 ## Your California Privacy Rights
 
@@ -331,7 +331,7 @@ If you are a California resident, you have specific rights under the California 
 
 **Important:** Because FuelFlow stores all data exclusively in your private iCloud account and we have no access to it, these rights are exercised directly by you through the app and your iCloud settings. We do not sell personal information.
 
-——
+---
 
 ## European Users (GDPR)
 
@@ -348,7 +348,7 @@ If you are located in the European Economic Area (EEA), you have rights under th
 
 Because your data is stored in your iCloud account, you can exercise these rights directly through the app interface and Apple’s iCloud settings.
 
-——
+---
 
 **By using FuelFlow, you acknowledge that you have read and understood this Privacy Policy.**
 
