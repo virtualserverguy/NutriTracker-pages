@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -27,46 +26,46 @@
         </div>
     </nav>
 
-<main class="main-content">
-    {{ content }}
-</main>
+    <main class="main-content">
+        {{ content }}
+    </main>
 
-<footer class="footer">
-    <div class="container">
-        <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
-        <p class="footer-links">
-            <a href="{{ '/privacy' | relative_url }}">Privacy Policy</a> • 
-            <a href="{{ '/contact' | relative_url }}">Contact</a> • 
-            <a href="{{ site.url }}">{{ site.url | remove: "https://" | remove: "http://" }}</a>
-        </p>
-    </div>
-</footer>
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+            <p class="footer-links">
+                <a href="{{ '/privacy' | relative_url }}">Privacy Policy</a> • 
+                <a href="{{ '/contact' | relative_url }}">Contact</a> • 
+                <a href="{{ site.url }}">{{ site.url | remove: "https://" | remove: "http://" }}</a>
+            </p>
+        </div>
+    </footer>
 
-<script>
-    // Mobile navigation toggle
-    const navToggle = document.getElementById('navToggle');
-    const navMenu = document.getElementById('navMenu');
-    
-    navToggle.addEventListener('click', () => {
-        navMenu.classList.toggle('active');
-        navToggle.classList.toggle('active');
-    });
-
-    // Close menu when clicking outside
-    document.addEventListener('click', (e) => {
-        if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
-            navMenu.classList.remove('active');
-            navToggle.classList.remove('active');
-        }
-    });
-
-    // Close menu when clicking a link
-    navMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            navMenu.classList.remove('active');
-            navToggle.classList.remove('active');
+    <script>
+        // Mobile navigation toggle
+        const navToggle = document.getElementById('navToggle');
+        const navMenu = document.getElementById('navMenu');
+        
+        navToggle.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+            navToggle.classList.toggle('active');
         });
-    });
-</script>
+
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            }
+        });
+
+        // Close menu when clicking a link
+        navMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+                navToggle.classList.remove('active');
+            });
+        });
+    </script>
 </body>
 </html>
