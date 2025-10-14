@@ -1,5 +1,4 @@
 # Site settings
-
 title: FuelFlow
 email: info@fuelflow.run
 description: "Real-time nutrition tracking for ultramarathon runners. Track carbs, sodium, and water intake on your Apple Watch during training and race day."
@@ -7,48 +6,41 @@ baseurl: ""
 url: "https://fuelflow.run"
 
 # Build settings
-
 markdown: kramdown
 plugins:
-
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Navigation
-
 navigation:
-
-- title: Home
-  url: /
-- title: Features
-  url: /features
-- title: Screenshots
-  url: /screenshots
-- title: FAQ
-  url: /faq
-- title: About
-  url: /about
-- title: Contact
-  url: /contact
-- title: Privacy
-  url: /privacy
+  - title: Home
+    url: /
+  - title: Features
+    url: /features
+  - title: Screenshots
+    url: /screenshots
+  - title: FAQ
+    url: /faq
+  - title: About
+    url: /about
+  - title: Contact
+    url: /contact
+  - title: Privacy
+    url: /privacy
 
 # Social links
-
 github_username: yourusername
 twitter_username: fuelflow
 
 # Exclude from processing
-
 exclude:
-
-- Gemfile
-- Gemfile.lock
-- node_modules
-- vendor/bundle/
-- vendor/cache/
-- vendor/gems/
-- vendor/ruby/
-- README.md
-- LICENSE.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE.md
