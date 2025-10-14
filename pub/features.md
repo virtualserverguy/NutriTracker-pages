@@ -1,8 +1,8 @@
-——
+---
 layout: page
 title: Features
 permalink: /features/
-——
+---
 
 # Features
 
@@ -72,7 +72,7 @@ Generate comprehensive reports after your run:
 - Access past run history
 - Resume interrupted sessions seamlessly
 
-——
+---
 
 ## Technical Details
 
@@ -88,6 +88,6 @@ Generate comprehensive reports after your run:
 - No third-party data sharing
 - No ads or tracking
 
-——
+---
 
 [Get Started](#){: .btn .btn-primary} [Contact Us](/contact){: .btn .btn-secondary}
