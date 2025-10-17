@@ -8,7 +8,7 @@ permalink: /about/
 
 ## The Developer
 
-Hi! I'm **Tom Ralph**, an iOS developer with a passion for ultramarathon running. FuelFlow was born from my own struggles managing nutrition during long-distance events. I found existing apps too complex for on-the-move logging, so I built something better.
+Hi! I'm an iOS developer with a passion for ultramarathon running. FuelFlow was born from my own struggles managing nutrition during long-distance events. I found existing apps too complex for on-the-move logging, so I built something better.
 
 My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you're tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
 
@@ -20,23 +20,23 @@ Whether you're tackling your first 50K or your tenth 100-miler, proper fueling c
 
 ### Recent Races
 
-**[Race Name]**  
-📅 Month Year | 📏 100 miles | ⏱️ 24:35:12 | 🏆 145/368
+**[Wasatch 100 mile]**  
+📅 September 2025 | 📏 100 miles | ⏱️ DNF 
 
-**[Race Name]**  
-📅 Month Year | 📏 100 kilometers | ⏱️ 12:18:33 | 🏆 89/325
+**[Run Rabbit Run]**  
+📅 September 2024 | 📏 100 miles | ⏱️ 29:30
 
-**[Race Name]**  
-📅 Month Year | 📏 50 miles | ⏱️ 9:45:22 | 🏆 42/156
+**[Hardrock Endurance Run]**  
+📅 July 2023 | 📏 100 miles | ⏱️ 47:08
 
-[View my complete racing history on UltraSignup →](https://ultrasignup.com/results_participant.aspx?fname=Tom&lname=Ralph#)
+<!-- Racing history available upon request -->
 
 ---
 
 ## The Story Behind FuelFlow
 
 ### The Problem
-During my first 100-miler, I tried tracking nutrition with a spreadsheet on my phone. By mile 40, I was too exhausted to deal with unlocking my phone, opening the app, and tapping through menus. I ended up under-fueling and bonked hard at mile 70.
+During my first 100-miler, I tried tracking nutrition in my heade. By mile 40, I was too exhausted to deal with thinking and remembering 'did I eat that?'. I ended up under-fueling and bonked hard at mile 70.
 
 ### The Solution
 I knew I needed something that worked with an Apple Watch—something I could operate with one tap, even when my brain was foggy and my hands were clumsy. FuelFlow was designed to be:

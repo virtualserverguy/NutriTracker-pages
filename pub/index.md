@@ -37,7 +37,7 @@ Generate and share detailed nutrition reports with timestamps and summary statis
 
 ## Built by Runners, for Runners
 
-FuelFlow was created by ultrarunner Tom Ralph, who understands the challenges of managing nutrition during long-distance events. Every feature reflects real trail experience, from quick-tap logging to real-time hourly tracking.
+FuelFlow was created by an ultrarunner who understands the challenges of managing nutrition during long-distance events. Every feature reflects real trail experience, from quick-tap logging to real-time hourly tracking.
 
 Whether you're tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
 
