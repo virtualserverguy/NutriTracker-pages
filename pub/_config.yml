@@ -20,6 +20,8 @@ navigation:
     url: /features
   - title: Screenshots
     url: /screenshots
+  - title: Food Library
+    url: /food-library
   - title: FAQ
     url: /faq
   - title: About
