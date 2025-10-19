@@ -1,0 +1,146 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-19",
+  "foods": [
+    {
+      "name": "GU Energy Gel",
+      "carbs": 22,
+      "sodium": 55,
+      "servingSize": "32g packet",
+      "category": "Gel"
+    },
+    {
+      "name": "Maurten Gel 100",
+      "carbs": 25,
+      "sodium": 37,
+      "servingSize": "40g packet",
+      "category": "Gel"
+    },
+    {
+      "name": "Tailwind Nutrition",
+      "carbs": 25,
+      "sodium": 303,
+      "servingSize": "200ml serving",
+      "category": "Drink"
+    },
+    {
+      "name": "Potato (boiled)",
+      "carbs": 15,
+      "sodium": 200,
+      "servingSize": "small potato",
+      "category": "Food"
+    },
+    {
+      "name": "Pretzels",
+      "carbs": 22,
+      "sodium": 385,
+      "servingSize": "28g (about 10 pretzels)",
+      "category": "Food"
+    },
+    {
+      "name": "Banana",
+      "carbs": 27,
+      "sodium": 1,
+      "servingSize": "1 medium",
+      "category": "Food"
+    },
+    {
+      "name": "Cola",
+      "carbs": 26,
+      "sodium": 15,
+      "servingSize": "240ml cup",
+      "category": "Drink"
+    },
+    {
+      "name": "PB&J Quarter",
+      "carbs": 20,
+      "sodium": 150,
+      "servingSize": "1/4 sandwich",
+      "category": "Food"
+    },
+    {
+      "name": "Oreo Cookies",
+      "carbs": 25,
+      "sodium": 160,
+      "servingSize": "3 cookies",
+      "category": "Food"
+    },
+    {
+      "name": "Gatorade",
+      "carbs": 14,
+      "sodium": 110,
+      "servingSize": "240ml cup",
+      "category": "Drink"
+    },
+    {
+      "name": "Spring Energy Gel",
+      "carbs": 21,
+      "sodium": 80,
+      "servingSize": "44g packet",
+      "category": "Gel"
+    },
+    {
+      "name": "Clif Bloks",
+      "carbs": 24,
+      "sodium": 70,
+      "servingSize": "3 chews",
+      "category": "Gel"
+    },
+    {
+      "name": "Watermelon",
+      "carbs": 11,
+      "sodium": 2,
+      "servingSize": "1 cup cubed",
+      "category": "Food"
+    },
+    {
+      "name": "Orange Slices",
+      "carbs": 13,
+      "sodium": 0,
+      "servingSize": "1 orange",
+      "category": "Food"
+    },
+    {
+      "name": "Ramen Broth",
+      "carbs": 5,
+      "sodium": 800,
+      "servingSize": "1 cup",
+      "category": "Drink"
+    },
+    {
+      "name": "Avocado Toast Quarter",
+      "carbs": 15,
+      "sodium": 200,
+      "servingSize": "1/4 slice",
+      "category": "Food"
+    },
+    {
+      "name": "SIS Isotonic Gel",
+      "carbs": 22,
+      "sodium": 49,
+      "servingSize": "60ml packet",
+      "category": "Gel"
+    },
+    {
+      "name": "Honey Stinger Waffle",
+      "carbs": 21,
+      "sodium": 80,
+      "servingSize": "1 waffle",
+      "category": "Food"
+    },
+    {
+      "name": "Pickle Juice",
+      "carbs": 0,
+      "sodium": 690,
+      "servingSize": "60ml shot",
+      "category": "Drink"
+    },
+    {
+      "name": "UCAN Edge",
+      "carbs": 15,
+      "sodium": 90,
+      "servingSize": "1 packet",
+      "category": "Gel"
+    }
+  ]
+}

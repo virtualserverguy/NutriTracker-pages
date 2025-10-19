@@ -43,7 +43,7 @@ Set custom nutrition targets based on your needs:
 Adjust goals on the fly based on conditions, effort level, or how you're feeling.
 
 ### CloudKit Sync
-Start a run on your iPhone, continue tracking on your Apple Watch, and export data from either device. All your food library items and active run sessions stay in sync via iCloud.
+Start a run on your iPhone, continue tracking on your Apple Watch, and export data from either device. All your data—including food library items, active run sessions, and nutrition goals—stays in sync via iCloud. The food library page includes a bidirectional sync feature that forces a complete refresh of all CloudKit data across your devices, ensuring everything stays perfectly synchronized.
 
 ### Water Logging
 Quick water logging with customizable amounts. Track hydration alongside nutrition to maintain optimal performance throughout your event.

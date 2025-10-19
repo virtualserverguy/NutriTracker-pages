@@ -81,7 +81,7 @@ Yes! You have full control over your food library. You can:
 ## Data & Sync
 
 ### How does syncing work between devices?
-FuelFlow uses Apple's CloudKit to sync data between your iPhone and Apple Watch. Any changes to your food library or active run session automatically sync across all your devices signed in with the same iCloud account.
+FuelFlow uses Apple's CloudKit to sync data between your iPhone and Apple Watch. Any changes to your food library, active run sessions, or nutrition goals automatically sync across all your devices signed in with the same iCloud account. The food library page includes a bidirectional sync feature that you can trigger manually to force a complete refresh of all CloudKit data, ensuring everything is perfectly synchronized across devices.
 
 ### What if I'm in airplane mode during a race?
 No problem! FuelFlow works completely offline. All your logging will be saved locally, and the data will sync to iCloud once you're back online.
@@ -144,13 +144,15 @@ Check these things:
 1. Ensure you're signed in to iCloud on both devices
 2. Verify you have an internet connection
 3. Check that iCloud Drive is enabled in Settings
-4. Try force-quitting and reopening the app
+4. Try using the manual sync feature on the food library page to force a complete CloudKit data refresh
+5. Try force-quitting and reopening the app
 
 ### My Apple Watch app isn't showing my food library
 First, make sure your iPhone and Apple Watch are syncing. The food library is managed on iPhone and syncs to the Watch. If items aren't appearing, try:
-1. Opening FuelFlow on iPhone to trigger a sync
-2. Ensuring both devices have an internet connection
-3. Restarting both devices
+1. Using the manual sync feature on the food library page to force a complete CloudKit refresh
+2. Opening FuelFlow on iPhone to trigger an automatic sync
+3. Ensuring both devices have an internet connection
+4. Restarting both devices
 
 ### I'm not receiving progress updates
 Make sure you have an active run session started. Progress bars only appear during an active run. If you have a run active but aren't seeing updates, try:
