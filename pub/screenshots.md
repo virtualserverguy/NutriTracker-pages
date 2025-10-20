@@ -6,7 +6,7 @@ permalink: /screenshots/
 
 # Screenshots
 
-See FuelFlow in action on iPhone and Apple Watch.
+See FuelFlow in action on iPhone and Apple Watch across different endurance activities.
 
 ---
 
@@ -14,15 +14,15 @@ See FuelFlow in action on iPhone and Apple Watch.
 
 ### Food Library
 ![Food Library Screenshot](/assets/images/screenshots/iphone-food-library.png)
-*Browse and manage your custom food library. Pre-loaded with common ultrarunning nutrition items, or add your own.*
+*Browse and manage your custom food library. Pre-loaded with common endurance nutrition items for running, cycling, triathlon, and more. Add your own sport-specific items.*
 
-### Active Run - Overview
-![Active Run Screenshot](/assets/images/screenshots/iphone-active-run.png)
-*Track your real-time progress with visual indicators for carbs, sodium, and water consumption versus your hourly goals.*
+### Active Session - Overview
+![Active Session Screenshot](/assets/images/screenshots/iphone-active-run.png)
+*Track your real-time progress with visual indicators for carbs, sodium, and water consumption versus your hourly goals. Works for Running, Cycling, Triathlon, and Multisport activities.*
 
-### Active Run - Hourly Breakdown
+### Active Session - Hourly Breakdown
 ![Hourly Breakdown Screenshot](/assets/images/screenshots/iphone-hourly-breakdown.png)
-*See exactly what you consumed each hour of your run with detailed rates and totals.*
+*See exactly what you consumed each hour of your activity with detailed rates and totals. Particularly useful for long-distance events and multisport races.*
 
 ### Log Food
 ![Log Food Screenshot](/assets/images/screenshots/iphone-log-food.png)
@@ -34,31 +34,31 @@ See FuelFlow in action on iPhone and Apple Watch.
 
 ### Export Report
 ![Export Screenshot](/assets/images/screenshots/iphone-export.png)
-*Review past runs with detailed statistics and export reports for analysis or sharing with coaches.*
+*Review past activities with detailed statistics and export reports for analysis or sharing with coaches. Includes activity type and segment data.*
 
 ### Export Detail
 ![Export Detail Screenshot](/assets/images/screenshots/iphone-export-detail.png)
-*Comprehensive run reports including hourly breakdown, timestamps, and summary statistics.*
+*Comprehensive activity reports including activity type, hourly breakdown, timestamps, and summary statistics.*
 
 ---
 
 ## Apple Watch App
 
-### Active Run - Progress
-![Watch Active Run Screenshot](/assets/images/screenshots/watch-active-run.png)
-*Glance at your wrist to see current progress. Color-coded rings show carbs (green), sodium (cyan), and water (blue).*
+### Active Session - Progress
+![Watch Active Session Screenshot](/assets/images/screenshots/watch-active-run.png)
+*Glance at your wrist to see current progress during any endurance activity. Color-coded rings show carbs (green), sodium (cyan), and water (blue).*
 
 ### Quick Food Logging
 ![Watch Food List Screenshot](/assets/images/screenshots/watch-food-list.png)
-*Log nutrition with one tap. No need to pull out your phone during your run.*
+*Log nutrition with one tap. No need to pull out your phone during your activity, whether running, cycling, or in transition.*
 
 ### Water Logging
 ![Watch Water Screenshot](/assets/images/screenshots/watch-water.png)
 *Quick water logging with preset amounts or custom entry.*
 
-### Run Stats
+### Activity Stats
 ![Watch Stats Screenshot](/assets/images/screenshots/watch-stats.png)
-*View elapsed time, total consumption, and current hourly rates at a glance.*
+*View elapsed time, total consumption, and current hourly rates at a glance. Works across all activity types.*
 
 ---
 
