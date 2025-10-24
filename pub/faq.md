@@ -27,7 +27,7 @@ You can use FuelFlow on iPhone only, but the Apple Watch companion app provides 
 Pricing information will be available when the app launches on the App Store.
 
 ### Do I need an internet connection?
-No! FuelFlow works completely offline. Your data will automatically sync to iCloud when you have an internet connection, but you can log nutrition and track your runs without any connectivity.
+No! FuelFlow works completely offline. When your iPhone and Apple Watch are together, they sync instantly via Bluetooth—no internet required. Your data will also automatically sync to iCloud when you have an internet connection, but you can log nutrition and track your activities with zero connectivity.
 
 ---
 
@@ -94,10 +94,33 @@ Yes! You have full control over your food library. You can:
 ## Data & Sync
 
 ### How does syncing work between devices?
-FuelFlow uses Apple's CloudKit to sync data between your iPhone and Apple Watch. Any changes to your food library, active run sessions, or nutrition goals automatically sync across all your devices signed in with the same iCloud account. The food library page includes a bidirectional sync feature that you can trigger manually to force a complete refresh of all CloudKit data, ensuring everything is perfectly synchronized across devices.
+FuelFlow uses a sophisticated dual-sync system:
+
+**Instant Sync (Primary):** When your iPhone and Apple Watch are connected via Bluetooth or WiFi, changes sync in **less than 1 second**. Log a gel on your Watch, and it appears on your iPhone immediately—no internet required! This works even in airplane mode with Bluetooth enabled.
+
+**CloudKit Sync (Backup):** When devices aren't in Bluetooth range, FuelFlow automatically uses iCloud to sync. Any changes to your food library, sessions, or goals sync across all your devices signed in with the same iCloud account.
+
+The dual-sync system ensures you never lose data, whether your devices are together or apart, online or offline. Learn more in our [Sync & Data Guide](/docs/sync-and-data/).
+
+### How fast is instant sync?
+Changes appear on the other device in **less than 1 second**. Start a session on your iPhone, instantly see it on your Watch. Log food on your Watch, instantly see it on your iPhone. It's so fast you won't even notice the sync happening.
+
+### Do I need internet for sync during activities?
+No! When your iPhone and Apple Watch are connected via Bluetooth (typical range: about 10 meters / 30 feet), instant sync works with **zero internet**. This is perfect for:
+- Remote trail runs without cell service
+- International races (no roaming charges)
+- Airplane mode to save battery
+- Any area with spotty connectivity
 
 ### What if I'm in airplane mode during a race?
-No problem! FuelFlow works completely offline. All your logging will be saved locally, and the data will sync to iCloud once you're back online.
+No problem! Just enable Bluetooth even with airplane mode on:
+1. Enable Airplane Mode
+2. Manually turn Bluetooth back on
+3. Instant sync continues to work between iPhone and Watch
+4. No internet or cellular data used
+5. Maximum battery life with full sync functionality
+
+When you disable airplane mode later, CloudKit will sync any changes as a backup.
 
 ### Can I use FuelFlow on multiple iPhones or Apple Watches?
 Yes, as long as all devices are signed in with the same iCloud account. Your food library and run history will stay in sync across all devices.
@@ -155,12 +178,29 @@ Your activity data is stored indefinitely in your iCloud account until you choos
 ## Troubleshooting
 
 ### FuelFlow isn't syncing between my devices
-Check these things:
+**First, check instant sync (if devices are nearby):**
+1. Ensure Bluetooth is enabled on both iPhone and Watch
+2. Bring devices within Bluetooth range (about 10 meters / 30 feet)
+3. Open FuelFlow on both devices to trigger sync
+4. Wait a moment—sync happens in less than 1 second
+
+**If still not syncing, check CloudKit sync:**
 1. Ensure you're signed in to iCloud on both devices
 2. Verify you have an internet connection
 3. Check that iCloud Drive is enabled in Settings
-4. Try using the manual sync feature on the food library page to force a complete CloudKit data refresh
-5. Try force-quitting and reopening the app
+4. Try force-quitting and reopening the app
+5. Wait 10-30 seconds for CloudKit sync to complete
+
+Most sync issues are resolved by simply ensuring Bluetooth is enabled and devices are in range. See our [Sync & Data Guide](/docs/sync-and-data/) for detailed troubleshooting.
+
+### Session started on iPhone isn't showing on Watch
+**Quick fix:**
+1. Check that Bluetooth is enabled on both devices
+2. Open FuelFlow on your Apple Watch
+3. Pull down to refresh
+4. Session should appear immediately
+
+If still not appearing, check internet connection for CloudKit sync as backup.
 
 ### My Apple Watch app isn't showing my food library
 First, make sure your iPhone and Apple Watch are syncing. The food library is managed on iPhone and syncs to the Watch. If items aren't appearing, try:

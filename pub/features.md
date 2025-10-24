@@ -15,6 +15,15 @@ Discover everything FuelFlow has to offer to help you achieve your endurance nut
 ### Apple Watch Integration
 Log food and water consumption directly from your wrist during any activity. No need to pull out your phone—just tap and go. The Watch app displays your current progress and makes it easy to stay on top of your nutrition whether you're running, cycling, or in transition.
 
+### Live Activities on Lock Screen
+When you start a session, FuelFlow creates a Live Activity that appears on your iPhone Lock Screen and in the Dynamic Island (iPhone 14 Pro and newer). See your real-time stats without unlocking your phone:
+- Current carb, sodium, and water intake
+- Progress toward hourly goals
+- Elapsed time
+- Last logged item
+
+Perfect for quick glances during activities or when your phone is mounted on your bike.
+
 ### Real-Time Progress Tracking
 Monitor your carbs, sodium, and water intake with live progress bars showing how you're tracking against your hourly goals. See at a glance if you're ahead or behind your targets and adjust accordingly.
 
@@ -53,8 +62,23 @@ Set custom nutrition targets based on your needs:
 
 Adjust goals on the fly based on conditions, effort level, or how you're feeling.
 
-### CloudKit Sync
-Start a run on your iPhone, continue tracking on your Apple Watch, and export data from either device. All your data—including food library items, active run sessions, and nutrition goals—stays in sync via iCloud. The food library page includes a bidirectional sync feature that forces a complete refresh of all CloudKit data across your devices, ensuring everything stays perfectly synchronized.
+### Instant Sync
+FuelFlow features lightning-fast synchronization between your iPhone and Apple Watch—changes appear in **less than 1 second**. Log a gel on your Watch during a run, and it instantly appears on your iPhone. Start a session on your iPhone, and your Watch updates immediately.
+
+**How it works:**
+- Uses Bluetooth or WiFi Direct (no internet required)
+- Works completely offline—even in airplane mode with Bluetooth enabled
+- Syncs everything: session starts, food logs, water intake, session ends
+- Automatic and seamless—you'll never notice it happening
+
+**Perfect for:**
+- Remote trail runs without cell service
+- International races with expensive roaming
+- Ultra-distance events in areas with spotty coverage
+- Any time you want instant feedback without relying on the internet
+
+### CloudKit Sync (Backup)
+When your devices aren't in Bluetooth range, FuelFlow automatically falls back to CloudKit sync via iCloud. All your data—including food library items, sessions, and nutrition goals—stays synchronized across devices. The dual-sync system ensures you never lose data, whether devices are together or apart, online or offline.
 
 ### Water Logging
 Quick water logging with customizable amounts. Track hydration alongside nutrition to maintain optimal performance throughout your event.

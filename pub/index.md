@@ -15,14 +15,20 @@ Track your carbs, sodium, and water intake during training and race day with Fue
 
 ## Why FuelFlow?
 
+### ⚡ Instant Sync
+Changes sync between iPhone and Apple Watch in **less than 1 second**. Log on your Watch, see it instantly on your iPhone. Works offline via Bluetooth—no internet required.
+
 ### ⌚ Apple Watch Ready
 Quick-log food consumption directly from your wrist during any endurance activity without pulling out your phone.
+
+### 📲 Live Activities
+Your session stats appear on your Lock Screen and Dynamic Island. Glance at your nutrition without unlocking your phone.
 
 ### 📊 Real-Time Tracking
 Monitor carbs, sodium, and water intake with live progress toward your hourly goals.
 
-### ☁️ CloudKit Sync
-Seamless synchronization between iPhone and Apple Watch via iCloud.
+### ☁️ Dual-Sync Architecture
+Instant local sync via Bluetooth plus CloudKit backup ensures your data is always synchronized, online or offline.
 
 ### 🍎 Custom Food Library
 Pre-loaded with common endurance nutrition (gels, bars, sports drinks) plus add your own favorites for any sport.
