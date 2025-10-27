@@ -33,6 +33,24 @@
       "category": "Gel"
     },
     {
+      "name": "SIS Beta Fuel Gel",
+      "carbs": 40,
+      "sodium": 12,
+      "category": "Gel"
+    },
+    {
+      "name": "SIS Beta Fuel + Electrolyte Gel",
+      "carbs": 40,
+      "sodium": 200,
+      "category": "Gel"
+    },
+    {
+      "name": "SIS Beta Fuel Energy Chew",
+      "carbs": 46,
+      "sodium": 15,
+      "category": "Chews"
+    },
+    {
       "name": "Huma Gel Original",
       "carbs": 22,
       "sodium": 105,
@@ -87,6 +105,18 @@
       "category": "Chews"
     },
     {
+      "name": "Skratch Hydration Sport Drink Mix",
+      "carbs": 20,
+      "sodium": 400,
+      "category": "Drink"
+    },
+    {
+      "name": "Skratch Super High-Carb Mix",
+      "carbs": 100,
+      "sodium": 400,
+      "category": "Drink"
+    },
+    {
       "name": "Honey Stinger Energy Gel",
       "carbs": 24,
       "sodium": 60,
@@ -111,6 +141,12 @@
       "category": "Drink"
     },
     {
+      "name": "Gnarly Hydrate",
+      "carbs": 7,
+      "sodium": 250,
+      "category": "Drink"
+    },
+    {
       "name": "Precision Fuel PF 30 Gel",
       "carbs": 30,
       "sodium": 0,
@@ -119,6 +155,12 @@
     {
       "name": "Precision Fuel PF 90 Gel",
       "carbs": 90,
+      "sodium": 0,
+      "category": "Gel"
+    },
+    {
+      "name": "Precision Fuel PF 300 Flow Gel",
+      "carbs": 300,
       "sodium": 0,
       "category": "Gel"
     },
