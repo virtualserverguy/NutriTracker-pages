@@ -1,66 +1,48 @@
 {
   "version": "1.0.0",
-  "lastUpdated": "2025-10-19",
+  "lastUpdated": "2025-10-26",
   "foods": [
     {
       "name": "GU Energy Gel",
       "carbs": 22,
-      "sodium": 55,
+      "sodium": 60,
       "category": "Gel"
     },
     {
       "name": "Maurten Gel 100",
       "carbs": 25,
-      "sodium": 37,
+      "sodium": 20,
       "category": "Gel"
     },
     {
-      "name": "Tailwind Nutrition",
+      "name": "Tailwind Endurance Fuel",
       "carbs": 25,
       "sodium": 303,
       "category": "Drink"
     },
     {
-      "name": "Potato (boiled)",
-      "carbs": 15,
-      "sodium": 200,
-      "category": "Food"
-    },
-    {
-      "name": "Pretzels",
+      "name": "SIS Isotonic Gel",
       "carbs": 22,
-      "sodium": 385,
-      "category": "Food"
+      "sodium": 4,
+      "category": "Gel"
     },
     {
-      "name": "Banana",
-      "carbs": 27,
-      "sodium": 1,
-      "category": "Food"
+      "name": "SIS Energy + Electrolyte Gel",
+      "carbs": 22,
+      "sodium": 118,
+      "category": "Gel"
     },
     {
-      "name": "Cola",
-      "carbs": 26,
-      "sodium": 15,
-      "category": "Drink"
+      "name": "Huma Gel Original",
+      "carbs": 22,
+      "sodium": 105,
+      "category": "Gel"
     },
     {
-      "name": "PB&J Quarter",
-      "carbs": 20,
-      "sodium": 150,
-      "category": "Food"
-    },
-    {
-      "name": "Oreo Cookies",
-      "carbs": 25,
-      "sodium": 160,
-      "category": "Food"
-    },
-    {
-      "name": "Gatorade",
-      "carbs": 14,
-      "sodium": 110,
-      "category": "Drink"
+      "name": "Huma Gel Plus",
+      "carbs": 22,
+      "sodium": 240,
+      "category": "Gel"
     },
     {
       "name": "Spring Energy Gel",
@@ -69,25 +51,145 @@
       "category": "Gel"
     },
     {
-      "name": "Clif Bloks",
-      "carbs": 24,
-      "sodium": 70,
+      "name": "Clif Shot Energy Gel",
+      "carbs": 25,
+      "sodium": 40,
       "category": "Gel"
     },
     {
-      "name": "Watermelon",
+      "name": "CARBS Fuel Original Gel 50g",
+      "carbs": 50,
+      "sodium": 450,
+      "category": "Gel"
+    },
+    {
+      "name": "CARBS Fuel Gel 25g",
+      "carbs": 25,
+      "sodium": 225,
+      "category": "Gel"
+    },
+    {
+      "name": "CARBS Fuel Drink Mix",
+      "carbs": 75,
+      "sodium": 500,
+      "category": "Drink"
+    },
+    {
+      "name": "Clif Bloks (3 pieces)",
+      "carbs": 24,
+      "sodium": 70,
+      "category": "Chews"
+    },
+    {
+      "name": "Skratch Energy Chews",
+      "carbs": 19,
+      "sodium": 35,
+      "category": "Chews"
+    },
+    {
+      "name": "Honey Stinger Energy Gel",
+      "carbs": 24,
+      "sodium": 60,
+      "category": "Gel"
+    },
+    {
+      "name": "Honey Stinger Waffle",
+      "carbs": 21,
+      "sodium": 55,
+      "category": "Food"
+    },
+    {
+      "name": "Honey Stinger Energy Chews",
+      "carbs": 22,
+      "sodium": 130,
+      "category": "Chews"
+    },
+    {
+      "name": "Gnarly Fuel2O",
+      "carbs": 25,
+      "sodium": 250,
+      "category": "Drink"
+    },
+    {
+      "name": "Precision Hydration PH 1000",
+      "carbs": 60,
+      "sodium": 1000,
+      "category": "Drink"
+    },
+    {
+      "name": "Precision Hydration PH 1500",
+      "carbs": 17,
+      "sodium": 1500,
+      "category": "Drink"
+    },
+    {
+      "name": "Tailwind High Carb Fuel",
+      "carbs": 90,
+      "sodium": 660,
+      "category": "Drink"
+    },
+    {
+      "name": "UCAN Edge",
+      "carbs": 15,
+      "sodium": 90,
+      "category": "Gel"
+    },
+    {
+      "name": "Gatorade (16oz)",
+      "carbs": 28,
+      "sodium": 220,
+      "category": "Drink"
+    },
+    {
+      "name": "Potato (boiled, small)",
+      "carbs": 15,
+      "sodium": 200,
+      "category": "Food"
+    },
+    {
+      "name": "Pretzels (handful)",
+      "carbs": 22,
+      "sodium": 385,
+      "category": "Food"
+    },
+    {
+      "name": "Banana (medium)",
+      "carbs": 27,
+      "sodium": 1,
+      "category": "Food"
+    },
+    {
+      "name": "Cola (12oz)",
+      "carbs": 39,
+      "sodium": 15,
+      "category": "Drink"
+    },
+    {
+      "name": "PB&J Quarter Sandwich",
+      "carbs": 20,
+      "sodium": 150,
+      "category": "Food"
+    },
+    {
+      "name": "Oreo Cookies (3 cookies)",
+      "carbs": 25,
+      "sodium": 160,
+      "category": "Food"
+    },
+    {
+      "name": "Watermelon (1 cup)",
       "carbs": 11,
       "sodium": 2,
       "category": "Food"
     },
     {
-      "name": "Orange Slices",
+      "name": "Orange Slices (medium)",
       "carbs": 13,
       "sodium": 0,
       "category": "Food"
     },
     {
-      "name": "Ramen Broth",
+      "name": "Ramen Broth (1 cup)",
       "carbs": 5,
       "sodium": 800,
       "category": "Drink"
@@ -99,28 +201,10 @@
       "category": "Food"
     },
     {
-      "name": "SIS Isotonic Gel",
-      "carbs": 22,
-      "sodium": 49,
-      "category": "Gel"
-    },
-    {
-      "name": "Honey Stinger Waffle",
-      "carbs": 21,
-      "sodium": 80,
-      "category": "Food"
-    },
-    {
-      "name": "Pickle Juice",
+      "name": "Pickle Juice (2oz shot)",
       "carbs": 0,
       "sodium": 690,
       "category": "Drink"
-    },
-    {
-      "name": "UCAN Edge",
-      "carbs": 15,
-      "sodium": 90,
-      "category": "Gel"
     }
   ]
 }
