@@ -111,6 +111,18 @@
       "category": "Drink"
     },
     {
+      "name": "Precision Fuel PF 30 Gel",
+      "carbs": 30,
+      "sodium": 0,
+      "category": "Gel"
+    },
+    {
+      "name": "Precision Fuel PF 90 Gel",
+      "carbs": 90,
+      "sodium": 0,
+      "category": "Gel"
+    },
+    {
       "name": "Precision Hydration PH 1000",
       "carbs": 60,
       "sodium": 1000,
