@@ -12,7 +12,7 @@ Hi! I'm an iOS developer with a passion for ultramarathon running. FuelFlow was 
 
 My experience running 100-milers taught me that good nutrition tracking needs to be fast, simple, and accessible at a glance—especially when you're tired and moving. Every feature in FuelFlow reflects lessons learned on the trails, from the quick-tap logging system to the real-time hourly progress tracking.
 
-Whether you're tackling your first 50K or your tenth 100-miler, proper fueling can make or break your race. FuelFlow helps you nail your nutrition strategy so you can focus on what matters: moving forward.
+While FuelFlow was born from ultrarunning, the nutrition challenges are universal across endurance sports. Whether you're tackling your first 50K, cycling a century ride, racing a triathlon, or pushing through any endurance challenge, proper fueling can make or break your performance. FuelFlow helps you nail your nutrition strategy across all your endurance pursuits so you can focus on what matters: moving forward.
 
 ---
 
@@ -42,12 +42,18 @@ During my first 100-miler, I tried tracking nutrition in my heade. By mile 40, I
 I knew I needed something that worked with an Apple Watch—something I could operate with one tap, even when my brain was foggy and my hands were clumsy. FuelFlow was designed to be:
 
 - **Fast**: Log food in under 2 seconds
-- **Simple**: No complex menus or data entry mid-run
+- **Simple**: No complex menus or data entry mid-activity
 - **Reliable**: Works offline, syncs when you have signal
 - **Informative**: Real-time feedback on whether you're hitting your targets
 
 ### The Mission
-Help ultrarunners dial in their nutrition strategy so they can focus on the run, not on complicated tracking systems. Whether you're training for your first ultra or chasing a podium finish, proper fueling shouldn't be complicated.
+Help endurance athletes dial in their nutrition strategy so they can focus on their performance, not on complicated tracking systems. Whether you're training for your first ultra, preparing for an Ironman, or chasing a podium finish in any endurance sport, proper fueling shouldn't be complicated.
+
+FuelFlow now supports multiple activity types:
+- **Running** - From 5Ks to 200-milers
+- **Cycling** - Road, gravel, bikepacking, and more
+- **Triathlon** - Seamless tracking through all three disciplines
+- **Multisport** - Adventure races and custom combinations
 
 ---
 

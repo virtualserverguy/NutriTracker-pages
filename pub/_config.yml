@@ -1,7 +1,7 @@
 # Site settings
 title: FuelFlow
 email: info@fuelflow.run
-description: "Real-time nutrition tracking for ultramarathon runners. Track carbs, sodium, and water intake on your Apple Watch during training and race day."
+description: "Real-time nutrition tracking for endurance athletes. Track carbs, sodium, and water intake on your Apple Watch during running, cycling, triathlon, and other endurance sports."
 baseurl: ""
 url: "https://fuelflow.run"
 
