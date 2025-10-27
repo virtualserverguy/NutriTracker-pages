@@ -27,8 +27,8 @@ Your session stats appear on your Lock Screen and Dynamic Island. Glance at your
 ### 📊 Real-Time Tracking
 Monitor carbs, sodium, and water intake with live progress toward your hourly goals.
 
-### ☁️ Dual-Sync Architecture
-Instant local sync via Bluetooth plus CloudKit backup ensures your data is always synchronized, online or offline.
+### ☁️ Bulletproof Sync
+Instant local sync via Bluetooth plus CloudKit backup ensures your data is **always** synchronized—online or offline, in the backcountry or at home. Engineered for reliability in 24+ hour ultra events.
 
 ### 🍎 Custom Food Library
 Pre-loaded with common endurance nutrition (gels, bars, sports drinks) plus add your own favorites for any sport.

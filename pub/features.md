@@ -80,6 +80,17 @@ FuelFlow features lightning-fast synchronization between your iPhone and Apple W
 ### CloudKit Sync (Backup)
 When your devices aren't in Bluetooth range, FuelFlow automatically falls back to CloudKit sync via iCloud. All your data—including food library items, sessions, and nutrition goals—stays synchronized across devices. The dual-sync system ensures you never lose data, whether devices are together or apart, online or offline.
 
+### Battle-Tested Reliability
+FuelFlow's sync system is built to handle the toughest scenarios endurance athletes face:
+
+- **Works in airplane mode** - Bluetooth keeps devices synced without cellular data
+- **Survives device deaths** - Data saved locally, syncs when powered back on
+- **Handles poor connectivity** - Queues changes, syncs when connection returns
+- **Recovers automatically** - No manual intervention needed, ever
+- **Ultra-tested** - Refined through real 50+ mile events and 24+ hour activities
+
+**The bottom line:** You focus on your activity. FuelFlow takes care of the data.
+
 ### Water Logging
 Quick water logging with customizable amounts. Track hydration alongside nutrition to maintain optimal performance throughout your event.
 
