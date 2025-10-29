@@ -48,7 +48,7 @@
       "name": "SIS Beta Fuel Energy Chew",
       "carbs": 46,
       "sodium": 15,
-      "category": "Chews"
+      "category": "Food"
     },
     {
       "name": "Huma Gel Original",
@@ -96,13 +96,13 @@
       "name": "Clif Bloks (3 pieces)",
       "carbs": 24,
       "sodium": 70,
-      "category": "Chews"
+      "category": "Food"
     },
     {
       "name": "Skratch Energy Chews",
       "carbs": 19,
       "sodium": 35,
-      "category": "Chews"
+      "category": "Food"
     },
     {
       "name": "Skratch Hydration Sport Drink Mix",
@@ -132,7 +132,7 @@
       "name": "Honey Stinger Energy Chews",
       "carbs": 22,
       "sodium": 130,
-      "category": "Chews"
+      "category": "Food"
     },
     {
       "name": "Gnarly Fuel2O",
