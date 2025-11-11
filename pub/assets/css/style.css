@@ -1,5 +1,10 @@
 /* ================================
    FuelFlow Dark Theme - Mobile First
+   Alpenglow Color Palette Edition
+
+   Mountain sunrise/sunset inspired colors
+   matching the iOS/watchOS app theme.
+   See: Shared/AlpenglowColors.swift
    ================================ */
 
 :root {
@@ -9,13 +14,37 @@
     --bg-tertiary: #242424;
     --text-primary: #e0e0e0;
     --text-secondary: #a0a0a0;
-    --accent-primary: #667eea;
-    --accent-secondary: #764ba2;
-    --accent-green: #10b981;
-    --accent-cyan: #06b6d4;
-    --accent-blue: #3b82f6;
+
+    /* Alpenglow Color Palette - Mountain Sunrise/Sunset Inspired */
+    /* Dawn/Sunrise Colors */
+    --alpenglow-coral: #FF7D79;        /* Warm coral - Primary accent */
+    --alpenglow-peach: #FFB58F;        /* Soft peach - Secondary accent */
+    --alpenglow-warm-orange: #FF944A;  /* Warm orange - Call-to-action */
+    --alpenglow-golden: #FFD66A;       /* Golden hour - Highlights */
+
+    /* Sky Colors */
+    --alpenglow-lavender: #B59FD9;     /* Lavender - Calm, soothing */
+    --alpenglow-sky-blue: #87BFEB;     /* Sky blue - Fresh, energetic */
+    --alpenglow-deep-purple: #7A5CB6;  /* Deep purple - Depth */
+    --alpenglow-mountain-blue: #4A78BF; /* Mountain blue - Stable */
+
+    /* Semantic Mappings */
+    --accent-primary: var(--alpenglow-coral);
+    --accent-secondary: var(--alpenglow-warm-orange);
+    --accent-green: var(--alpenglow-golden);
+    --accent-cyan: var(--alpenglow-sky-blue);
+    --accent-blue: var(--alpenglow-mountain-blue);
+    --accent-lavender: var(--alpenglow-lavender);
+
     --border-color: #333;
     --shadow: rgba(0, 0, 0, 0.5);
+
+    /* Alpenglow Gradients */
+    --gradient-sunrise: linear-gradient(135deg, var(--alpenglow-coral), var(--alpenglow-peach), var(--alpenglow-golden));
+    --gradient-sunset: linear-gradient(135deg, var(--alpenglow-warm-orange), var(--alpenglow-coral), var(--alpenglow-deep-purple));
+    --gradient-sky: linear-gradient(180deg, var(--alpenglow-lavender), var(--alpenglow-sky-blue));
+    --gradient-mountain: linear-gradient(135deg, var(--alpenglow-deep-purple), var(--alpenglow-mountain-blue));
+    --gradient-dawn: linear-gradient(180deg, var(--alpenglow-deep-purple), var(--alpenglow-lavender), var(--alpenglow-peach), var(--alpenglow-golden));
 }
 
 * {
@@ -49,7 +78,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2rem;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--gradient-sunrise);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -126,7 +155,7 @@ strong {
 .logo {
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--gradient-sunrise);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -245,13 +274,13 @@ article {
 }
 
 .btn-primary {
-    background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+    background: var(--gradient-sunset);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+    box-shadow: 0 10px 25px rgba(255, 125, 121, 0.5);
 }
 
 .btn-secondary {
