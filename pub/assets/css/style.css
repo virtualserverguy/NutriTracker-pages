@@ -41,7 +41,7 @@
 
     /* Alpenglow Gradients */
     --gradient-sunrise: linear-gradient(135deg, var(--alpenglow-coral), var(--alpenglow-peach), var(--alpenglow-golden));
-    --gradient-sunset: linear-gradient(135deg, var(--alpenglow-warm-orange), var(--alpenglow-coral), var(--alpenglow-deep-purple));
+    --gradient-sunset: linear-gradient(90deg, var(--alpenglow-warm-orange) 0%, var(--alpenglow-coral) 50%, var(--alpenglow-deep-purple) 100%);
     --gradient-sky: linear-gradient(180deg, var(--alpenglow-lavender), var(--alpenglow-sky-blue));
     --gradient-mountain: linear-gradient(135deg, var(--alpenglow-deep-purple), var(--alpenglow-mountain-blue));
     --gradient-dawn: linear-gradient(180deg, var(--alpenglow-deep-purple), var(--alpenglow-lavender), var(--alpenglow-peach), var(--alpenglow-golden));
@@ -304,13 +304,15 @@ article {
 }
 
 .btn-primary {
-    background: var(--gradient-sunrise);
+    background: var(--gradient-sunset);
+    background-size: 100% 100%;
+    background-position: center;
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 148, 74, 0.5);
+    box-shadow: 0 10px 25px rgba(255, 125, 121, 0.5);
 }
 
 .btn-secondary {
