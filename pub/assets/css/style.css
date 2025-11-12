@@ -292,13 +292,13 @@ article {
 }
 
 .btn-primary {
-    background: var(--gradient-sunset);
+    background: var(--gradient-sunrise);
     color: white;
 }
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 125, 121, 0.5);
+    box-shadow: 0 10px 25px rgba(255, 148, 74, 0.5);
 }
 
 .btn-secondary {
