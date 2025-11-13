@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FuelFlow - Connecting to Garmin</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+        .container {
+            text-align: center;
+            padding: 2rem;
+        }
+        .spinner {
+            border: 4px solid rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            border-top: 4px solid white;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        h1 {
+            font-size: 1.5rem;
+            margin: 0 0 0.5rem;
+        }
+        p {
+            opacity: 0.9;
+            margin: 0;
+        }
+        .error {
+            background: rgba(255, 59, 48, 0.9);
+            padding: 1rem;
+            border-radius: 8px;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="spinner"></div>
+        <h1>Connecting to Garmin</h1>
+        <p id="status">Redirecting to FuelFlow...</p>
+        <div id="error" class="error" style="display: none;"></div>
+    </div>
+
+    <script>
+        // Get URL parameters from Garmin OAuth callback
+        const urlParams = new URLSearchParams(window.location.search);
+        const statusElement = document.getElementById('status');
+        const errorElement = document.getElementById('error');
+
+        // Check for OAuth parameters
+        const oauthToken = urlParams.get('oauth_token');
+        const oauthVerifier = urlParams.get('oauth_verifier');
+        const error = urlParams.get('error');
+        const errorDescription = urlParams.get('error_description');
+
+        // Build app deep link URL
+        let appUrl = 'fuelflow://garmin-oauth';
+        const params = new URLSearchParams();
+
+        if (error) {
+            // Handle OAuth error
+            params.append('error', error);
+            if (errorDescription) {
+                params.append('error_description', errorDescription);
+            }
+            appUrl += '?' + params.toString();
+
+            statusElement.textContent = 'Authentication failed';
+            errorElement.textContent = errorDescription || 'An error occurred during authentication';
+            errorElement.style.display = 'block';
+
+            // Still try to redirect after 3 seconds to show error in app
+            setTimeout(() => {
+                window.location.href = appUrl;
+            }, 3000);
+        } else if (oauthToken && oauthVerifier) {
+            // Success - pass OAuth parameters to app
+            params.append('oauth_token', oauthToken);
+            params.append('oauth_verifier', oauthVerifier);
+            appUrl += '?' + params.toString();
+
+            statusElement.textContent = 'Opening FuelFlow...';
+
+            // Attempt to open the app
+            window.location.href = appUrl;
+
+            // Fallback: If app doesn't open after 2 seconds, show message
+            setTimeout(() => {
+                statusElement.textContent = 'If FuelFlow doesn\'t open automatically, please open it manually.';
+            }, 2000);
+        } else {
+            // Missing parameters
+            statusElement.textContent = 'Invalid callback';
+            errorElement.textContent = 'Missing OAuth parameters. Please try again.';
+            errorElement.style.display = 'block';
+        }
+    </script>
+</body>
+</html>
