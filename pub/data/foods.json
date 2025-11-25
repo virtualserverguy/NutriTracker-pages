@@ -1,12 +1,26 @@
 {
-  "version": "1.1.0",
-  "lastUpdated": "2025-11-21",
+  "version": "1.2.0",
+  "lastUpdated": "2025-11-25",
   "foods": [
     {
       "name": "GU Energy Gel",
       "carbs": 22,
       "sodium": 60,
+      "category": "Gel",
+      "caffeine": 20
+    },
+    {
+      "name": "GU Energy Gel (Caffeine-Free)",
+      "carbs": 22,
+      "sodium": 60,
       "category": "Gel"
+    },
+    {
+      "name": "GU Roctane Gel",
+      "carbs": 22,
+      "sodium": 125,
+      "category": "Gel",
+      "caffeine": 35
     },
     {
       "name": "Maurten Gel 160",
@@ -21,6 +35,13 @@
       "category": "Gel"
     },
     {
+      "name": "Maurten Gel 100 CAF 100",
+      "carbs": 25,
+      "sodium": 20,
+      "category": "Gel",
+      "caffeine": 100
+    },
+    {
       "name": "Maurten Solid 160",
       "carbs": 41,
       "sodium": 240,
@@ -31,6 +52,13 @@
       "carbs": 25,
       "sodium": 303,
       "category": "Drink"
+    },
+    {
+      "name": "Tailwind Endurance Fuel (Caffeinated)",
+      "carbs": 25,
+      "sodium": 303,
+      "category": "Drink",
+      "caffeine": 35
     },
     {
       "name": "SIS Isotonic Gel",
@@ -57,6 +85,13 @@
       "category": "Gel"
     },
     {
+      "name": "SIS Beta Fuel + Nootropics Gel",
+      "carbs": 40,
+      "sodium": 30,
+      "category": "Gel",
+      "caffeine": 200
+    },
+    {
       "name": "SIS Beta Fuel Energy Chew",
       "carbs": 46,
       "sodium": 15,
@@ -75,16 +110,37 @@
       "category": "Gel"
     },
     {
+      "name": "Huma Gel Plus (Caffeinated)",
+      "carbs": 22,
+      "sodium": 240,
+      "category": "Gel",
+      "caffeine": 25
+    },
+    {
       "name": "Spring Energy Gel",
       "carbs": 21,
       "sodium": 80,
       "category": "Gel"
     },
     {
+      "name": "Spring Energy Awesome Sauce (Caffeine)",
+      "carbs": 23,
+      "sodium": 70,
+      "category": "Gel",
+      "caffeine": 65
+    },
+    {
       "name": "Clif Shot Energy Gel",
       "carbs": 25,
       "sodium": 40,
       "category": "Gel"
+    },
+    {
+      "name": "Clif Shot Turbo Energy Gel",
+      "carbs": 24,
+      "sodium": 90,
+      "category": "Gel",
+      "caffeine": 100
     },
     {
       "name": "CARBS Fuel Original Gel 50g",
@@ -111,6 +167,13 @@
       "category": "Food"
     },
     {
+      "name": "Clif Bloks Black Cherry (3 pieces)",
+      "carbs": 24,
+      "sodium": 70,
+      "category": "Chews",
+      "caffeine": 50
+    },
+    {
       "name": "Skratch Energy Chews",
       "carbs": 19,
       "sodium": 35,
@@ -133,6 +196,13 @@
       "carbs": 24,
       "sodium": 60,
       "category": "Gel"
+    },
+    {
+      "name": "Honey Stinger Ginsting Gel (Caffeine)",
+      "carbs": 24,
+      "sodium": 60,
+      "category": "Gel",
+      "caffeine": 32
     },
     {
       "name": "Honey Stinger Waffle",
@@ -163,6 +233,13 @@
       "carbs": 30,
       "sodium": 0,
       "category": "Gel"
+    },
+    {
+      "name": "Precision Fuel PF 30 Gel (Caffeine)",
+      "carbs": 30,
+      "sodium": 0,
+      "category": "Gel",
+      "caffeine": 100
     },
     {
       "name": "Precision Fuel PF 90 Gel",
@@ -201,6 +278,25 @@
       "category": "Gel"
     },
     {
+      "name": "UCAN Energy Gel",
+      "carbs": 20,
+      "sodium": 200,
+      "category": "Gel"
+    },
+    {
+      "name": "Gatorade Endurance Gel",
+      "carbs": 22,
+      "sodium": 200,
+      "category": "Gel"
+    },
+    {
+      "name": "Gatorade Endurance Gel Caffeinated",
+      "carbs": 22,
+      "sodium": 200,
+      "category": "Gel",
+      "caffeine": 50
+    },
+    {
       "name": "Gatorade (16oz)",
       "carbs": 28,
       "sodium": 220,
@@ -228,7 +324,8 @@
       "name": "Cola (12oz)",
       "carbs": 39,
       "sodium": 15,
-      "category": "Drink"
+      "category": "Drink",
+      "caffeine": 34
     },
     {
       "name": "PB&J Quarter Sandwich",
@@ -276,7 +373,8 @@
       "name": "Enervit C2",
       "carbs": 40,
       "sodium": 0,
-      "category": "Gel"
+      "category": "Gel",
+      "caffeine": 50
     },
     {
       "name": "Enervit Liquid",
@@ -295,6 +393,55 @@
       "carbs": 34,
       "sodium": 500,
       "category": "Drink"
+    },
+    {
+      "name": "Red Bull (8.4oz)",
+      "carbs": 27,
+      "sodium": 105,
+      "category": "Drink",
+      "caffeine": 80
+    },
+    {
+      "name": "Monster Energy (16oz)",
+      "carbs": 54,
+      "sodium": 370,
+      "category": "Drink",
+      "caffeine": 160
+    },
+    {
+      "name": "5-hour Energy Shot",
+      "carbs": 0,
+      "sodium": 18,
+      "category": "Drink",
+      "caffeine": 200
+    },
+    {
+      "name": "Coffee (8oz black)",
+      "carbs": 0,
+      "sodium": 5,
+      "category": "Drink",
+      "caffeine": 95
+    },
+    {
+      "name": "Espresso Shot",
+      "carbs": 0,
+      "sodium": 1,
+      "category": "Drink",
+      "caffeine": 63
+    },
+    {
+      "name": "Green Tea (8oz)",
+      "carbs": 0,
+      "sodium": 2,
+      "category": "Drink",
+      "caffeine": 28
+    },
+    {
+      "name": "NoDoz Caffeine Tablet",
+      "carbs": 0,
+      "sodium": 0,
+      "category": "Food",
+      "caffeine": 200
     }
   ]
 }
