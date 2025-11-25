@@ -1,6 +1,6 @@
 {
-  "version": "1.0.0",
-  "lastUpdated": "2025-10-26",
+  "version": "1.1.0",
+  "lastUpdated": "2025-11-21",
   "foods": [
     {
       "name": "GU Energy Gel",
@@ -9,10 +9,22 @@
       "category": "Gel"
     },
     {
+      "name": "Maurten Gel 160",
+      "carbs": 40,
+      "sodium": 30,
+      "category": "Gel"
+    },
+    {
       "name": "Maurten Gel 100",
       "carbs": 25,
       "sodium": 20,
       "category": "Gel"
+    },
+    {
+      "name": "Maurten Solid 160",
+      "carbs": 41,
+      "sodium": 240,
+      "category": "Food"
     },
     {
       "name": "Tailwind Endurance Fuel",
@@ -35,7 +47,7 @@
     {
       "name": "SIS Beta Fuel Gel",
       "carbs": 40,
-      "sodium": 12,
+      "sodium": 30,
       "category": "Gel"
     },
     {
@@ -258,6 +270,30 @@
       "name": "Pickle Juice (2oz shot)",
       "carbs": 0,
       "sodium": 690,
+      "category": "Drink"
+    },
+    {
+      "name": "Enervit C2",
+      "carbs": 40,
+      "sodium": 0,
+      "category": "Gel"
+    },
+    {
+      "name": "Enervit Liquid",
+      "carbs": 30,
+      "sodium": 8,
+      "category": "Gel"
+    },
+    {
+      "name": "Skratch Recovery",
+      "carbs": 35,
+      "sodium": 270,
+      "category": "Drink"
+    },
+    {
+      "name": "Tailwind Recovery",
+      "carbs": 34,
+      "sodium": 500,
       "category": "Drink"
     }
   ]
