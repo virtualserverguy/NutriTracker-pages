@@ -170,11 +170,11 @@
       "name": "Clif Bloks Black Cherry (3 pieces)",
       "carbs": 24,
       "sodium": 70,
-      "category": "Chews",
+      "category": "Food",
       "caffeine": 50
     },
     {
-      "name": "Skratch Energy Chews",
+      "name": "Skratch Energy Food",
       "carbs": 19,
       "sodium": 35,
       "category": "Food"
@@ -211,7 +211,7 @@
       "category": "Food"
     },
     {
-      "name": "Honey Stinger Energy Chews",
+      "name": "Honey Stinger Energy Food",
       "carbs": 22,
       "sodium": 130,
       "category": "Food"
