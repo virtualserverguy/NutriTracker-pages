@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Privacy Policy
 
-**Last Updated: October 14, 2025**
+**Last Updated: November 22, 2025**
 
 This Privacy Policy describes how FuelFlow ("we", "our", or "the app") collects, uses, and protects your information when you use our iOS and watchOS application.
 
@@ -17,8 +17,9 @@ This Privacy Policy describes how FuelFlow ("we", "our", or "the app") collects,
 Your privacy is critically important to us. FuelFlow is designed with privacy as a core principle. We believe your nutrition and health data belongs to you, and you alone.
 
 **Key Privacy Principles:**
-- We do not collect, store, or have access to your personal data
-- Your data stays in your private iCloud account
+- Your nutrition and activity data stays in your private iCloud account
+- By default, we do not collect, store, or have access to your personal data
+- Optional third-party integrations may involve temporary data transit through our servers (see "Third-Party Integrations" below)
 - No third-party data sharing or selling
 - No advertising or tracking
 - No analytics collection about your usage
@@ -67,6 +68,18 @@ Some data is cached locally on your device for offline functionality:
 
 This local data is stored securely on your device and is not accessible to other apps.
 
+### Optional Integration Services
+
+Some optional features (such as automatic workout import from Garmin Connect) may temporarily route data through FuelFlow servers to deliver it to your device. When you enable these features:
+
+- **Your nutrition data** (food logs, goals, preferences) still stays exclusively in your iCloud
+- **Workout data from third-party services** may transit through our servers
+- **Data is encrypted** in transit and at rest
+- **Data is not stored long-term** - automatically deleted within 24 hours
+- **Data is not used** for analytics, advertising, or any purpose other than delivering it to you
+- **You control it** - these integrations are entirely optional and can be disconnected anytime
+
+See "Third-Party Integrations" section below for complete details.
 ---
 
 ## How We Use Your Data
@@ -104,7 +117,7 @@ FuelFlow includes an export feature that allows **you** to share your run report
 
 ---
 
-## Third-Party Services
+## Third-Party Integrations
 
 ### Apple iCloud (CloudKit)
 FuelFlow uses Apple's CloudKit service to sync your data across your devices. Your data is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
@@ -114,12 +127,83 @@ Key points about iCloud:
 - Apple cannot access the contents of your encrypted data
 - You control your iCloud data through your Apple ID settings
 
-### No Other Third-Party Services
-FuelFlow does not integrate with, connect to, or share data with any other third-party services, including:
+### Optional Workout Integrations
+
+FuelFlow offers optional integrations with third-party fitness platforms to help you import workout data. **These integrations are entirely optional** - you can use FuelFlow without ever connecting them.
+
+#### Client-Side Integrations (Zero-Server)
+
+**Apple HealthKit** and **Manual File Import** (FIT, TCX, GPX files):
+- All data processing happens on YOUR device
+- FuelFlow servers are NOT involved
+- Data goes directly from the source to your device to your iCloud
+- We cannot access your data
+
+**Example**: When you import a workout from Apple Health:
+```
+Apple Health → Your iPhone → Your iCloud
+(FuelFlow servers never see this data)
+```
+
+#### Server-Assisted Integrations (Optional)
+
+**Garmin Connect** (if enabled):
+- ⚠️ FuelFlow servers temporarily receive workout data to forward to your device
+- ⚠️ We act as a secure bridge between Garmin and your device
+- ✅ Data is encrypted in transit and at rest
+- ✅ Data is automatically deleted from our servers within 24 hours
+- ✅ Data is NOT used for analytics, advertising, or any other purpose
+- ✅ You can disconnect at any time
+
+**Example**: When Garmin integration is enabled:
+```
+Garmin Connect → FuelFlow Bridge → Your iPhone → Your iCloud
+                 (temporary transit only, deleted within 24 hours)
+```
+
+**Why servers are required**: Garmin's API uses "server-to-server" architecture that requires our servers to receive workout notifications. This is a technical limitation of Garmin's API design.
+
+**What data transits our servers** (for Garmin integration):
+- Workout metrics (distance, duration, heart rate, calories, etc.)
+- GPS route data (if you choose to import routes)
+- Activity types and timestamps
+
+**What we DO NOT receive**:
+- Your Garmin password (OAuth authentication only)
+- Your nutrition logs, food library, or personal goals from FuelFlow
+- Your personal information beyond what's needed for the integration
+
+**Your control**:
+- Enable or disable in Settings → Integrations
+- See what data was imported and when
+- Disconnect anytime (your OAuth tokens and in-transit data are immediately deleted)
+
+#### Comparison Table
+
+| Feature | Client-Side (HealthKit, Files) | Server-Assisted (Garmin) |
+|---------|--------------------------------|--------------------------|
+| FuelFlow servers involved? | ❌ No | ✅ Yes (temporary) |
+| We can see workout data? | ❌ No | ⚠️ Briefly (<24 hours) |
+| Long-term storage | Your iCloud only | Your iCloud only |
+| Your nutrition data visible? | ❌ No | ❌ No |
+| Can disconnect anytime? | ✅ Yes | ✅ Yes |
+
+#### Alternative Options
+
+If you prefer zero-server integrations:
+- Use manual FIT file import (Settings → Import → From File)
+- Use Apple HealthKit (if Garmin syncs to Apple Health)
+- Export from Garmin Connect, import manually
+
+### No Analytics, Advertising, or Tracking
+
+FuelFlow does not integrate with:
 - Analytics platforms
 - Advertising networks
 - Social media platforms
-- Health and fitness apps (unless you manually export and share data)
+- Marketing or tracking services
+
+Your data is never used for these purposes, regardless of which integrations you enable.
 
 ---
 
@@ -205,6 +289,40 @@ To keep your data secure:
 
 ---
 
+## Server Security for Optional Integrations
+
+When you enable server-assisted integrations (such as Garmin Connect), we protect data that transits our servers with:
+
+### Encryption
+- **In transit**: HTTPS/TLS 1.3 for all communications with third-party services
+- **At rest**: AES-256 encryption for any temporary storage (data waiting to be delivered to your device)
+
+### Access Controls
+- Minimal employees have access to integration infrastructure
+- Access is logged and monitored
+- No direct access to user data by support staff
+
+### Data Minimization
+- We only receive data necessary for the integration to function
+- Data is automatically purged within 24 hours
+- No long-term storage or backups
+
+### Monitoring
+- Automated alerts for unusual access patterns
+- Regular security audits of integration code
+- Intrusion detection systems
+
+### Incident Response
+If a security breach occurs:
+1. We will immediately invalidate all authentication tokens
+2. We will notify affected users within 72 hours
+3. We will publish a transparent post-mortem
+4. Your nutrition data in iCloud remains safe (it was never on our servers)
+
+**Remember**: Server-assisted integrations only handle workout data from third-party services. Your nutrition logs, food library, and FuelFlow settings are always stored exclusively in your iCloud, never on our servers.
+
+---
+
 ## Changes to This Privacy Policy
 
 We may update this Privacy Policy from time to time to reflect changes in:
@@ -280,7 +398,12 @@ FuelFlow is designed to comply with:
 - Children's Online Privacy Protection Act (COPPA)
 - Other applicable data protection laws
 
-Because we do not collect, store, or process your personal data on our servers, many provisions of these laws (such as data access requests or deletion requests) are handled directly by you through the app interface and your iCloud settings.
+**For your core FuelFlow data** (nutrition logs, food library, goals): These provisions are handled directly by you through the app interface and your iCloud settings, as we do not collect or store this data on our servers.
+
+**For server-assisted integrations** (such as Garmin Connect): If you enable these optional features, we process workout data as a "data processor" on your behalf. You can exercise your rights by:
+- Disconnecting the integration (deletes OAuth tokens and in-transit data immediately)
+- Contacting us at [info@fuelflow.run](mailto:info@fuelflow.run) to request data deletion
+- Viewing import history in the app to see what data was processed
 
 ---
 
