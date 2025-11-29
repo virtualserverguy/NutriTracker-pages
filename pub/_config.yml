@@ -1,16 +1,12 @@
 # Site settings
-title: NutrιTracker
-email: nutritracker@thevsg.co
-description: >-
-  Optimize your ultra marathon performance through precise nutrition tracking. 
-  NutrιTracker helps endurance athletes monitor fuel intake, electrolyte balance, 
-  and caloric consumption during training and race events.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://nutritracker.thevsg.co" # the base hostname & protocol for your site
+title: FuelFlow
+email: info@fuelflow.run
+description: "Real-time nutrition tracking for endurance athletes. Track carbs, sodium, and water intake on your Apple Watch during running, cycling, triathlon, and other endurance sports."
+baseurl: ""
+url: "https://fuelflow.run"
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
@@ -22,31 +18,22 @@ navigation:
     url: /
   - title: Features
     url: /features
+  - title: Screenshots
+    url: /screenshots
+  - title: Food Library
+    url: /food-library
+  - title: FAQ
+    url: /faq
   - title: About
     url: /about
-  - title: Blog
-    url: /blog
   - title: Contact
     url: /contact
+  - title: Privacy
+    url: /privacy
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /blog/:year/:month/:day/:title/
-
-# Defaults
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "NutrιTracker Team"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Social links
+github_username: yourusername
+twitter_username: fuelflow
 
 # Exclude from processing
 exclude:
@@ -58,3 +45,4 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
   - README.md
+  - LICENSE.md

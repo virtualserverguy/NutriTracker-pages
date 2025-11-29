@@ -1,53 +1,60 @@
 ---
-layout: default
+layout: page
 title: Home
 ---
 
-# Welcome to NutrιTracker
+# FuelFlow
 
-**Precision nutrition tracking for ultra marathon athletes**
+**Real-time nutrition tracking for endurance athletes**
 
-NutrιTracker is purpose-built for endurance athletes who demand precise nutrition management during ultra marathon training and events. Monitor your fuel intake, electrolyte balance, and caloric consumption in real-time to optimize performance and avoid the dreaded bonk.
+Track your carbs, sodium, and water intake during training and race day with FuelFlow. Designed for runners, cyclists, triathletes, and endurance athletes who need fast, simple nutrition tracking on the move.
 
-## Why Choose NutrιTracker?
-
-### Race Day Fuel Management
-Track your nutrition intake during ultra marathons with ease. Log gels, bars, real food, and hydration on the go. Monitor calories per hour, carbohydrate intake, and electrolyte consumption to maintain optimal energy levels throughout your event.
-
-### Training Nutrition Optimization
-Perfect your fueling strategy during training runs. Test different nutrition approaches, identify what works for your body, and build a race day plan based on real data from your long runs.
-
-### Electrolyte Balance Tracking
-Monitor sodium, potassium, magnesium, and other critical electrolytes. Prevent cramping and maintain performance by ensuring proper electrolyte intake during long efforts.
-
-### Aid Station Planning
-Pre-plan your nutrition strategy for race day. Know exactly what you need at each aid station, track cumulative intake, and adjust on the fly based on how you're feeling.
-
-## Built for Endurance
-
-### Time-Based Tracking
-Log nutrition by time intervals rather than meals. Track intake per hour to maintain consistent fueling rates during ultra distances.
-
-### Portable & Fast
-Designed for quick entry during runs. Log your nutrition in seconds without breaking stride or fumbling with complicated interfaces.
-
-### Ultra-Specific Database
-Access nutrition information for popular ultra marathon fuels including energy gels, chews, bars, trail mix, boiled potatoes, pickles, broth, and other aid station staples.
-
-## Get Started Today
-
-Ready to dial in your ultra marathon nutrition? Join endurance athletes who have transformed their race performance through strategic fueling.
-
-[Get Started](#) | [Learn More](/features)
+[Download on App Store](#){: .btn .btn-primary}
 
 ---
 
-## What Ultra Runners Say
+## Why FuelFlow?
 
-> "NutrιTracker helped me nail my nutrition during my first 100-miler. I knew exactly how many calories and how much sodium I was getting at every aid station."
-> 
-> — Sarah M., Western States finisher
+### 🗺️ GPS Route Visualization ✨ NEW
+See exactly where you fueled with interactive maps showing hydration markers, elevation profiles, and heart rate zones. Import Garmin FIT files to visualize complete workouts with GPS, performance metrics, and nutrition data unified in one view.
 
-> "Finally, a tracking tool that understands endurance athletes. The hourly tracking feature is perfect for long training runs and race day."
-> 
-> — James K., ultra marathon coach
+### ⚡ Instant Sync
+Changes sync between iPhone and Apple Watch in **less than 1 second**. Log on your Watch, see it instantly on your iPhone. Works offline via Bluetooth—no internet required.
+
+### ⌚ Apple Watch Ready
+Quick-log food consumption directly from your wrist during any endurance activity without pulling out your phone.
+
+### 📲 Live Activities
+Your session stats appear on your Lock Screen and Dynamic Island. Glance at your nutrition without unlocking your phone.
+
+### 📊 Real-Time Tracking
+Monitor carbs, sodium, and water intake with live progress toward your hourly goals.
+
+### ☁️ Bulletproof Sync
+Instant local sync via Bluetooth plus CloudKit backup ensures your data is **always** synchronized—online or offline, in the backcountry or at home. Engineered for reliability in 24+ hour ultra events.
+
+### 🍎 Custom Food Library
+Pre-loaded with common endurance nutrition (gels, bars, sports drinks) plus add your own favorites for any sport.
+
+### 📈 Hourly Breakdown
+See detailed consumption stats for each hour of your activity with actual rates and averages.
+
+### 🏃‍♂️🚴‍♀️🏊‍♂️ Multisport Support
+Select your activity type (Running, Cycling, Triathlon, Multisport) and track transitions seamlessly during multi-sport events.
+
+### 📤 Export Reports
+Generate and share detailed nutrition reports with timestamps and summary statistics.
+
+---
+
+## Built by Endurance Athletes, for Endurance Athletes
+
+FuelFlow was created by an ultrarunner who understands the challenges of managing nutrition during long-distance events. Whether you're running an ultra, cycling a century, racing a triathlon, or pushing through any endurance challenge, every feature reflects real-world experience—from quick-tap logging to real-time hourly tracking.
+
+Proper fueling can make or break your performance. FuelFlow helps you nail your nutrition strategy across all your endurance pursuits so you can focus on what matters: moving forward.
+
+---
+
+## Get Started Today
+
+[Download FuelFlow](#){: .btn .btn-primary} [View Screenshots](/screenshots){: .btn .btn-secondary}
