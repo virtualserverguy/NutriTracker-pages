@@ -44,20 +44,31 @@ When using FuelFlow, you create and manage the following data:
 - Health data beyond what you manually log
 - Device information or identifiers
 - Usage analytics or statistics
-- Crash reports (unless you opt-in through iOS)
+- Crash reports (unless you opt-in through your device's operating system)
 
 ---
 
 ## How Your Data is Stored
 
-### iCloud Storage
-FuelFlow uses Apple's CloudKit framework to store and sync your data. This means:
+### Cloud Storage
 
+FuelFlow stores and syncs your data using your device's native cloud platform:
+
+#### Apple Users (iOS/watchOS)
+FuelFlow uses Apple's CloudKit framework to store and sync your data. This means:
 - Your data is stored in **your private iCloud account**
 - Apple encrypts data in transit and at rest
 - We (FuelFlow) have **no access** to your iCloud data
 - Only devices signed in with your Apple ID can access your data
 - Your data is protected by your Apple ID password and device authentication
+
+#### Android Users
+FuelFlow uses Google Cloud services to store and sync your data. This means:
+- Your data is stored in **your private Google Cloud account**
+- Google encrypts data in transit and at rest
+- We (FuelFlow) have **no access** to your Google Cloud data
+- Only devices signed in with your Google account can access your data
+- Your data is protected by your Google account password and device authentication
 
 ### Local Storage
 Some data is cached locally on your device for offline functionality:
@@ -71,7 +82,7 @@ This local data is stored securely on your device.
 
 Some optional features (such as automatic workout import from Garmin Connect) may temporarily route data through FuelFlow servers to deliver it to your device. When you enable these features:
 
-- **Your nutrition data** (food logs, goals, preferences) still stays exclusively in your iCloud
+- **Your nutrition data** (food logs, goals, preferences) still stays exclusively in your cloud account (iCloud or Google Cloud)
 - **Workout data from third-party services** may transit through our servers
 - **Data is encrypted** in transit and at rest
 - **Data is not stored long-term** - automatically deleted within 24 hours
@@ -85,13 +96,13 @@ See "Third-Party Integrations" section below for complete details.
 
 **Short answer: We don't.**
 
-Because your data is stored exclusively in your iCloud account, FuelFlow (the developer) never receives, accesses, or uses your data in any way. Your nutrition logs, food library, and run history remain private to you.
+Because your data is stored exclusively in your private cloud account (iCloud or Google Cloud), FuelFlow (the developer) never receives, accesses, or uses your data in any way. Your nutrition logs, food library, and run history remain private to you.
 
 The app uses your data locally on your device to:
 - Display your nutrition progress
 - Calculate hourly consumption rates
 - Generate export reports
-- Sync between your iPhone and Apple Watch
+- Sync between your devices
 
 ---
 
@@ -112,19 +123,29 @@ FuelFlow includes an export feature that allows **you** to share your run report
 - You choose what to export
 - You choose who to share it with
 - You initiate the export action
-- Exports happen through iOS's native sharing system
+- Exports happen through your device's native sharing system
 
 ---
 
 ## Third-Party Integrations
 
-### Apple iCloud (CloudKit)
-FuelFlow uses Apple's CloudKit service to sync your data across your devices. Your data is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+### Cloud Storage Providers
+
+#### Apple iCloud (iOS/watchOS Users)
+FuelFlow uses Apple's CloudKit service to sync your data across your Apple devices. Your data is subject to [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
 
 Key points about iCloud:
 - Data is encrypted in transit and at rest
 - Apple cannot access the contents of your encrypted data
 - You control your iCloud data through your Apple ID settings
+
+#### Google Cloud (Android Users)
+FuelFlow uses Google Cloud services to sync your data across your Android devices. Your data is subject to [Google's Privacy Policy](https://policies.google.com/privacy).
+
+Key points about Google Cloud:
+- Data is encrypted in transit and at rest
+- Google's data protection measures apply to your stored data
+- You control your data through your Google account settings
 
 ### Optional Workout Integrations
 
@@ -132,15 +153,15 @@ FuelFlow offers optional integrations with third-party fitness platforms to help
 
 #### Client-Side Integrations (Zero-Server)
 
-**Apple HealthKit** and **Manual File Import** (FIT, TCX, GPX files):
+**Apple HealthKit** (iOS), **Google Health Connect** (Android), and **Manual File Import** (FIT, TCX, GPX files):
 - All data processing happens on YOUR device
 - FuelFlow servers are NOT involved
-- Data goes directly from the source to your device to your iCloud
+- Data goes directly from the source to your device to your cloud account
 - We cannot access your data
 
-**Example**: When you import a workout from Apple Health:
+**Example**: When you import a workout from your health app:
 ```
-Apple Health → Your iPhone → Your iCloud
+Health App → Your Device → Your Cloud Account
 (FuelFlow servers never see this data)
 ```
 
@@ -156,7 +177,7 @@ Apple Health → Your iPhone → Your iCloud
 
 **Example**: When Garmin integration is enabled:
 ```
-Garmin Connect → FuelFlow Bridge → Your iPhone → Your iCloud
+Garmin Connect → FuelFlow Bridge → Your Device → Your Cloud Account
                  (temporary transit only, deleted within 24 hours)
 ```
 
@@ -179,11 +200,11 @@ Garmin Connect → FuelFlow Bridge → Your iPhone → Your iCloud
 
 #### Comparison Table
 
-| Feature | Client-Side (HealthKit, Files) | Server-Assisted (Garmin) |
-|---------|--------------------------------|--------------------------|
+| Feature | Client-Side (HealthKit/Health Connect, Files) | Server-Assisted (Garmin) |
+|---------|-----------------------------------------------|--------------------------|
 | FuelFlow servers involved? | ❌ No | ✅ Yes (temporary) |
 | We can see workout data? | ❌ No | ⚠️ Briefly (<24 hours) |
-| Long-term storage | Your iCloud only | Your iCloud only |
+| Long-term storage | Your cloud account only | Your cloud account only |
 | Your nutrition data visible? | ❌ No | ❌ No |
 | Can disconnect anytime? | ✅ Yes | ✅ Yes |
 
@@ -191,7 +212,7 @@ Garmin Connect → FuelFlow Bridge → Your iPhone → Your iCloud
 
 If you prefer zero-server integrations:
 - Use manual FIT file import (Settings → Import → From File)
-- Use Apple HealthKit (if Garmin syncs to Apple Health)
+- Use Apple HealthKit or Google Health Connect (if Garmin syncs to your health app)
 - Export from Garmin Connect, import manually
 
 ### No Analytics, Advertising, or Tracking
@@ -229,18 +250,25 @@ You can delete your data at any time:
 - Delete individual run sessions from your history
 
 **Delete All App Data:**
+
+*iOS/watchOS:*
 1. Delete the FuelFlow app from your device
 2. Go to Settings > [Your Name] > iCloud > Manage Storage
 3. Find FuelFlow and delete its data
 
-**Important:** Deleting the app or its iCloud data is permanent and cannot be undone.
+*Android:*
+1. Delete the FuelFlow app from your device
+2. Go to Settings > Google > Manage your Google Account > Data & privacy
+3. Find and delete FuelFlow data from your Google Cloud storage
+
+**Important:** Deleting the app or its cloud data is permanent and cannot be undone.
 
 ---
 
 ## Data Retention
 
 ### Active Data
-Your data is retained indefinitely in your iCloud account until you choose to delete it. This allows you to:
+Your data is retained indefinitely in your cloud account (iCloud or Google Cloud) until you choose to delete it. This allows you to:
 - Maintain a historical record of your runs
 - Reference past nutrition strategies
 - Build a comprehensive food library over time
@@ -248,7 +276,7 @@ Your data is retained indefinitely in your iCloud account until you choose to de
 ### Deleted Data
 When you delete data from FuelFlow:
 - It is immediately removed from your device
-- It is removed from iCloud within 24 hours
+- It is removed from your cloud account within 24 hours
 - It is permanently deleted and cannot be recovered
 
 ---
@@ -257,15 +285,17 @@ When you delete data from FuelFlow:
 
 FuelFlow is not directed to children under the age of 13 (or the applicable age of consent in your jurisdiction). We do not knowingly collect personal information from children. If you are a parent or guardian and believe your child has provided us with personal information, please contact us at [info@fuelflow.run](mailto:info@fuelflow.run).
 
-Given that FuelFlow stores all data in the user's iCloud account and we have no access to that data, we have no way to identify users by age.
+Given that FuelFlow stores all data in the user's private cloud account (iCloud or Google Cloud) and we have no access to that data, we have no way to identify users by age.
 
 ---
 
 ## International Users
 
-FuelFlow is available worldwide. If you use FuelFlow outside the United States, please be aware that your data is stored in your iCloud account, which may be processed in any country where Apple operates data centers.
+FuelFlow is available worldwide. If you use FuelFlow outside the United States, please be aware that your data is stored in your cloud account, which may be processed in any country where your cloud provider (Apple or Google) operates data centers.
 
-Your use of FuelFlow and the storage of your data in iCloud is subject to Apple's international data transfer practices as described in [Apple's Privacy Policy](https://www.apple.com/legal/privacy/).
+Your use of FuelFlow and the storage of your data is subject to your cloud provider's international data transfer practices:
+- **Apple Users**: [Apple's Privacy Policy](https://www.apple.com/legal/privacy/)
+- **Android Users**: [Google's Privacy Policy](https://policies.google.com/privacy)
 
 ---
 
@@ -273,16 +303,16 @@ Your use of FuelFlow and the storage of your data in iCloud is subject to Apple'
 
 ### Our Security Measures
 While we don't store your data on our servers, we take security seriously in our app design:
-- Communication with iCloud uses TLS encryption
-- Data is encrypted by Apple's CloudKit
-- Local data is protected by iOS sandboxing
+- Communication with cloud services uses TLS encryption
+- Data is encrypted by your cloud provider (Apple CloudKit or Google Cloud)
+- Local data is protected by platform sandboxing (iOS/Android)
 - No authentication credentials are stored in the app
 
 ### Your Security Responsibilities
 To keep your data secure:
-- Use a strong Apple ID password
-- Enable two-factor authentication on your Apple ID
-- Keep your devices updated with the latest iOS/watchOS
+- Use a strong password for your Apple ID or Google account
+- Enable two-factor authentication on your account
+- Keep your devices updated with the latest operating system
 - Use a passcode or biometric authentication on your devices
 - Don't share your devices with untrusted individuals
 
@@ -316,9 +346,9 @@ If a security breach occurs:
 1. We will immediately invalidate all authentication tokens
 2. We will notify affected users within 72 hours
 3. We will publish a transparent post-mortem
-4. Your nutrition data in iCloud remains safe (it was never on our servers)
+4. Your nutrition data in your cloud account remains safe (it was never on our servers)
 
-**Remember**: Server-assisted integrations only handle workout data from third-party services. Your nutrition logs, food library, and FuelFlow settings are always stored exclusively in your iCloud, never on our servers.
+**Remember**: Server-assisted integrations only handle workout data from third-party services. Your nutrition logs, food library, and FuelFlow settings are always stored exclusively in your private cloud account (iCloud or Google Cloud), never on our servers.
 
 ---
 
@@ -338,9 +368,9 @@ We encourage you to review this Privacy Policy periodically to stay informed abo
 
 ---
 
-## App Store Privacy Labels
+## App Store & Play Store Privacy Labels
 
-FuelFlow's App Store privacy labels accurately reflect our data practices:
+FuelFlow's privacy labels on both the Apple App Store and Google Play Store accurately reflect our data practices:
 
 **Data Not Collected:**
 FuelFlow does not collect any data that is linked to you or your identity.
@@ -354,7 +384,7 @@ None
 **Data Not Linked to You:**
 None
 
-You can review these labels in FuelFlow's App Store listing.
+You can review these labels in FuelFlow's App Store or Google Play Store listing.
 
 ---
 
@@ -377,11 +407,12 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 ## Legal Information
 
 ### Data Controller
-TheVSG LLC 
+TheVSG LLC
+Colorado, United States
 Email: [info@fuelflow.run](mailto:info@fuelflow.run)
 
 ### Governing Law
-This Privacy Policy is governed by the laws of the United States and the State of Colorado, without regard to conflict of law provisions.
+This Privacy Policy is governed by the laws of the State of Colorado, United States, without regard to conflict of law provisions.
 
 ### Dispute Resolution
 Any disputes relating to this Privacy Policy will be resolved through good faith negotiations. If negotiations fail, disputes will be resolved through binding arbitration administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules. Arbitration will take place in Colorado, and the arbitrator's decision will be final and binding. Each party will bear its own costs, with arbitration fees split equally unless the arbitrator determines otherwise. You agree to waive any right to participate in a class action lawsuit or class-wide arbitration.
@@ -398,7 +429,7 @@ FuelFlow is designed to comply with:
 - Children's Online Privacy Protection Act (COPPA)
 - Other applicable data protection laws
 
-**For your core FuelFlow data** (nutrition logs, food library, goals): These provisions are handled directly by you through the app interface and your iCloud settings, as we do not collect or store this data on our servers.
+**For your core FuelFlow data** (nutrition logs, food library, goals): These provisions are handled directly by you through the app interface and your cloud account settings (iCloud or Google), as we do not collect or store this data on our servers.
 
 **For server-assisted integrations** (such as Garmin Connect): If you enable these optional features, we process workout data as a "data processor" on your behalf. You can exercise your rights by:
 - Disconnecting the integration (deletes OAuth tokens and in-transit data immediately)
@@ -416,7 +447,7 @@ If you are a California resident, you have specific rights under the California 
 3. **Right to Opt-Out**: You can opt-out of the sale of personal information
 4. **Right to Non-Discrimination**: You won't be discriminated against for exercising your rights
 
-**Important:** Because FuelFlow stores all data exclusively in your private iCloud account and we have no access to it, these rights are exercised directly by you through the app and your iCloud settings. We do not sell personal information.
+**Important:** Because FuelFlow stores all data exclusively in your private cloud account (iCloud or Google Cloud) and we have no access to it, these rights are exercised directly by you through the app and your cloud account settings. We do not sell personal information.
 
 ---
 
@@ -433,10 +464,12 @@ If you are located in the European Economic Area (EEA), you have rights under th
 
 **Legal Basis:** FuelFlow processes data based on your consent and our legitimate interests in providing app functionality.
 
-Because your data is stored in your iCloud account, you can exercise these rights directly through the app interface and Apple's iCloud settings.
+Because your data is stored in your private cloud account, you can exercise these rights directly through the app interface and your cloud provider's settings (Apple iCloud or Google account settings).
 
 ---
 
 **By using FuelFlow, you acknowledge that you have read and understood this Privacy Policy.**
+
+This Privacy Policy is part of and subject to our [Terms of Service](/terms/).
 
 [Back to Home](/){: .btn .btn-secondary}
