@@ -15,6 +15,9 @@ Track your carbs, sodium, and water intake during training and race day with Fue
 
 ## Why FuelFlow?
 
+### 🗺️ GPS Route Visualization ✨ NEW
+See exactly where you fueled with interactive maps showing hydration markers, elevation profiles, and heart rate zones. Import Garmin FIT files to visualize complete workouts with GPS, performance metrics, and nutrition data unified in one view.
+
 ### ⚡ Instant Sync
 Changes sync between iPhone and Apple Watch in **less than 1 second**. Log on your Watch, see it instantly on your iPhone. Works offline via Bluetooth—no internet required.
 
