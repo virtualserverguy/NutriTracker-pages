@@ -8,7 +8,7 @@ permalink: /privacy/
 
 **Last Updated: November 22, 2025**
 
-This Privacy Policy describes how FuelFlow ("we", "our", or "the app") collects, uses, and protects your information when you use our iOS and watchOS application.
+This Privacy Policy describes how TheVSG LLC ("we," "us," or "our") collects, uses, and protects your information when you use our FuelFlow application ("App") for iOS, watchOS, and Android.
 
 ---
 
@@ -17,7 +17,6 @@ This Privacy Policy describes how FuelFlow ("we", "our", or "the app") collects,
 Your privacy is critically important to us. FuelFlow is designed with privacy as a core principle. We believe your nutrition and health data belongs to you, and you alone.
 
 **Key Privacy Principles:**
-- Your nutrition and activity data stays in your private iCloud account
 - By default, we do not collect, store, or have access to your personal data
 - Optional third-party integrations may involve temporary data transit through our servers (see "Third-Party Integrations" below)
 - No third-party data sharing or selling
@@ -32,12 +31,12 @@ Your privacy is critically important to us. FuelFlow is designed with privacy as
 When using FuelFlow, you create and manage the following data:
 
 **Nutrition Data:**
-- Food items (name, carbohydrates, sodium content)
+- Food items (name, carbohydrates, sodium content, caffeine)
 - Water intake logs
 - Run session data (start time, duration, consumption logs)
 - Nutrition goals (hourly targets for carbs, sodium, water)
 
-**Usage Note:** All of this data is stored exclusively in your private iCloud account. FuelFlow does not collect, transmit, or store any of this information on our servers.
+**Usage Note:** All of this data is stored exclusively on your device. FuelFlow does not collect, transmit, or store any of this information on our servers.
 
 ### Data We Do NOT Collect
 - Personal identification information (name, email, phone number)
@@ -66,7 +65,7 @@ Some data is cached locally on your device for offline functionality:
 - Food library items
 - Active run sessions
 
-This local data is stored securely on your device and is not accessible to other apps.
+This local data is stored securely on your device.
 
 ### Optional Integration Services
 
@@ -361,7 +360,7 @@ You can review these labels in FuelFlow's App Store listing.
 
 ## Cookie Policy
 
-FuelFlow does not use cookies, tracking pixels, or similar technologies. This privacy policy covers our app only, not our website (fuelflow.run), which may use standard web analytics.
+FuelFlow does not use cookies, tracking pixels, or similar technologies.
 
 ---
 
@@ -378,15 +377,16 @@ If you have questions, concerns, or requests regarding this Privacy Policy or yo
 ## Legal Information
 
 ### Data Controller
-Tom Ralph  
-FuelFlow  
+TheVSG LLC 
 Email: [info@fuelflow.run](mailto:info@fuelflow.run)
 
 ### Governing Law
-This Privacy Policy is governed by the laws of the United States and the state where the developer resides, without regard to conflict of law provisions.
+This Privacy Policy is governed by the laws of the United States and the State of Colorado, without regard to conflict of law provisions.
 
 ### Dispute Resolution
-Any disputes relating to this Privacy Policy will be resolved through good faith negotiations. If negotiations fail, disputes may be submitted to binding arbitration in accordance with the laws of the applicable jurisdiction.
+Any disputes relating to this Privacy Policy will be resolved through good faith negotiations. If negotiations fail, disputes will be resolved through binding arbitration administered by the American Arbitration Association ("AAA") under its Consumer Arbitration Rules. Arbitration will take place in Colorado, and the arbitrator's decision will be final and binding. Each party will bear its own costs, with arbitration fees split equally unless the arbitrator determines otherwise. You agree to waive any right to participate in a class action lawsuit or class-wide arbitration.
+
+**EU Users:** If you are located in the European Union, this arbitration provision does not apply to you. You retain the right to bring claims before the courts of your country of residence.
 
 ---
 
