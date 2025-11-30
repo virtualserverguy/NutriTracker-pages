@@ -40,19 +40,14 @@ Upload a FIT file from your Garmin and instantly visualize your complete workout
 ### Apple Watch Integration
 Log food and water consumption directly from your wrist during any activity. No need to pull out your phone—just tap and go. The Watch app displays your current progress and makes it easy to stay on top of your nutrition whether you're running, cycling, or in transition.
 
-### Live Activities on Lock Screen ✨ ENHANCED
+### Live Activities on Lock Screen
 
 FuelFlow creates a Live Activity that appears on your iPhone Lock Screen and in the Dynamic Island (iPhone 14 Pro and newer). See your real-time stats without unlocking your phone:
 - Current carb, sodium, and water intake
 - Progress toward hourly goals
 - Continuously updating timer
 - Last logged item
-
-**New in 2025.11.01:**
 - **Live Activity Toggle** - Control whether to show on lock screen (Settings → Optional Features)
-- **Auto-Recovery** - Automatically restarts if accidentally dismissed
-- **Keep Dismissed Option** - Respects your choice if intentionally dismissed
-- **Fixed Timer** - Now updates continuously every second
 
 Perfect for quick glances during activities or when your phone is mounted on your bike.
 
@@ -95,15 +90,10 @@ Set custom nutrition targets based on your needs:
 - Sodium per hour (default: 500mg)
 - Water per hour (default: 0.5L)
 
-**New in 2025.11.01:**
-- **Goal Memory** - Settings now remember your sport-specific targets
-- **Accurate Display** - Precise water amounts (0.25L vs 0.2L)
-- **Better Progress Bars** - Correctly handle when you exceed goals
-
 Adjust goals on the fly based on conditions, effort level, or how you're feeling.
 
 ### Instant Sync
-FuelFlow features lightning-fast synchronization between your iPhone and Apple Watch—changes appear in **less than 1 second**. Log a gel on your Watch during a run, and it instantly appears on your iPhone. Start a session on your iPhone, and your Watch updates immediately.
+FuelFlow features lightning-fast synchronization between your iPhone and Apple Watch—changes appear near instantly. Log a gel on your Watch during a run, and it instantly appears on your iPhone. Start a session on your iPhone, and your Watch updates immediately.
 
 **How it works:**
 - Uses Bluetooth or WiFi Direct (no internet required)
@@ -116,9 +106,6 @@ FuelFlow features lightning-fast synchronization between your iPhone and Apple W
 - International races with expensive roaming
 - Ultra-distance events in areas with spotty coverage
 - Any time you want instant feedback without relying on the internet
-
-### CloudKit Sync (Backup)
-When your devices aren't in Bluetooth range, FuelFlow automatically falls back to CloudKit sync via iCloud. All your data—including food library items, sessions, and nutrition goals—stays synchronized across devices. The dual-sync system ensures you never lose data, whether devices are together or apart, online or offline.
 
 ### Battle-Tested Reliability
 FuelFlow's sync system is built to handle the toughest scenarios endurance athletes face:
@@ -140,22 +127,16 @@ Generate comprehensive reports after your activity:
 - Activity type and duration
 - Hourly breakdown with timestamps
 - Average rates across the entire session
-- Segment-by-segment data for multisport events
 - Export as text for analysis or sharing with coaches
 
 ### Session Management ✨ ENHANCED
 
 - Start and end activity sessions with one tap
-- Select activity type (Running, Cycling, Triathlon, Multisport, Other)
+- Select activity type (Running, Cycling, Triathlon, Other)
 - View active session status across devices
 - Access past activity history
 - Resume interrupted sessions seamlessly
-- Track transitions in multisport events
-
-**New in 2025.11.01:**
 - **Keep Screen On** - Optional setting to prevent auto-lock during activities (Settings → Optional Features)
-- **Redesigned Start Screen** - Fixed start button, compact layout, collapsible details
-- **Improved Current Activity** - 2x2 button grid, larger tap targets, better contrast
 - **Enhanced Detail View** - Ultra-compact tags, better organization
 
 ### Optional Features
@@ -166,20 +147,6 @@ Control your FuelFlow experience with new settings in Settings → Optional Feat
 - **Keep Screen On** - Prevent auto-lock during activities (default: OFF, saves battery)
 
 Both settings give you full control over how FuelFlow works for you.
-
----
-
-## Technical Details
-
-### Platforms
-- iOS 18.6 or later
-- watchOS 26.0 or later
-- iCloud account required for sync
-
-### Privacy
-- All data stored in your private iCloud account
-- No third-party data sharing
-- No ads or tracking
 
 ---
 

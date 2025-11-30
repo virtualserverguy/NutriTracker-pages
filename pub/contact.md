@@ -53,7 +53,6 @@ Interested in testing new features before they're released? Email us at [info@fu
 
 Stay updated on new features, tips, and ultrarunning nutrition advice:
 
-- **Twitter**: [@fuelflow](https://twitter.com/fuelflow)
 - **Instagram**: [@fuelflow.run](https://instagram.com/fuelflow.run)
 
 ---

@@ -36,7 +36,7 @@ While FuelFlow was born from ultrarunning, the nutrition challenges are universa
 ## The Story Behind FuelFlow
 
 ### The Problem
-During my first 100-miler, I tried tracking nutrition in my heade. By mile 40, I was too exhausted to deal with thinking and remembering 'did I eat that?'. I ended up under-fueling and bonked hard at mile 70.
+During my first 100-miler, I tried tracking nutrition in my head. By mile 40, I was too exhausted to deal with thinking and remembering 'did I eat that?'. I ended up under-fueling and bonked hard at mile 70.
 
 ### The Solution
 I knew I needed something that worked with an Apple Watch—something I could operate with one tap, even when my brain was foggy and my hands were clumsy. FuelFlow was designed to be:
@@ -51,7 +51,7 @@ Help endurance athletes dial in their nutrition strategy so they can focus on th
 
 FuelFlow now supports multiple activity types:
 - **Running** - From 5Ks to 200-milers
-- **Cycling** - Road, gravel, bikepacking, and more
+- **Cycling** - Road, gravel, bike packing, and more
 - **Triathlon** - Seamless tracking through all three disciplines
 - **Multisport** - Adventure races and custom combinations
 

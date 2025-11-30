@@ -13,7 +13,7 @@ Find answers to common questions about FuelFlow.
 ## Getting Started
 
 ### What is FuelFlow?
-FuelFlow is a nutrition tracking app designed for endurance athletes. It helps you monitor carbohydrate, sodium, and water intake in real-time during training and competition across multiple sports including running, cycling, triathlon, and other endurance activities, with seamless integration between iPhone and Apple Watch.
+FuelFlow is a nutrition tracking app designed for endurance athletes. It helps you monitor carbohydrate, sodium, caffeine and water intake in real-time during training and competition across multiple sports including running, cycling, triathlon, and other endurance activities, with seamless integration between iPhone and Apple Watch.
 
 ### What devices do I need?
 FuelFlow works on:
@@ -24,7 +24,7 @@ FuelFlow works on:
 You can use FuelFlow on iPhone only, but the Apple Watch companion app provides the best experience for logging nutrition while running.
 
 ### How much does FuelFlow cost?
-Pricing information will be available when the app launches on the App Store.
+FuelFlow offers a monthly or yearly plan. $4.99/mo or $39.99 a year
 
 ### Do I need an internet connection?
 No! FuelFlow works completely offline. When your iPhone and Apple Watch are together, they sync instantly via Bluetooth—no internet required. Your data will also automatically sync to iCloud when you have an internet connection, but you can log nutrition and track your activities with zero connectivity.
@@ -36,7 +36,7 @@ No! FuelFlow works completely offline. When your iPhone and Apple Watch are toge
 ### How do I start an activity?
 1. Open FuelFlow on your iPhone or Apple Watch
 2. Tap "Start Activity"
-3. Select your activity type (Running, Cycling, Triathlon, or Multisport)
+3. Select your activity type (Running, Cycling, or Triathlon)
 4. Set your hourly goals for carbs, sodium, and water (or use defaults)
 5. Begin logging your nutrition as you consume it
 
@@ -60,17 +60,6 @@ These are based on common ultrarunning guidelines, but you can adjust them based
 
 ### Can I customize my goals during an activity?
 Yes! You can adjust your hourly goals at any time during an active session. This is useful if conditions change (heat, altitude, effort level) or if you need to adjust your fueling strategy mid-event.
-
-### How does multisport tracking work?
-For multisport events like triathlons:
-1. Select "Triathlon" or "Multisport" as your activity type when starting
-2. FuelFlow continuously tracks your nutrition across all segments
-3. Log nutrition normally as you transition between sports
-4. The hourly breakdown shows nutrition data across all activity segments
-5. Export reports include activity type and segment information
-
-### Can I track transitions in triathlons?
-Yes! When you select Triathlon as your activity type, FuelFlow maintains continuous tracking through all transitions (T1, T2). Your nutrition logging continues seamlessly from swim to bike to run.
 
 ### How does the food library work?
 FuelFlow comes pre-loaded with common endurance nutrition items including:
@@ -96,14 +85,11 @@ Yes! You have full control over your food library. You can:
 ### How does syncing work between devices?
 FuelFlow uses a sophisticated dual-sync system:
 
-**Instant Sync (Primary):** When your iPhone and Apple Watch are connected via Bluetooth or WiFi, changes sync in **less than 1 second**. Log a gel on your Watch, and it appears on your iPhone immediately—no internet required! This works even in airplane mode with Bluetooth enabled.
+**Instant Sync (Primary):** When your iPhone and Apple Watch are connected via Bluetooth or WiFi, changes sync near instantly. Log a gel on your Watch, and it appears on your iPhone immediately—no internet required! This works even in airplane mode with Bluetooth enabled.
 
 **CloudKit Sync (Backup):** When devices aren't in Bluetooth range, FuelFlow automatically uses iCloud to sync. Any changes to your food library, sessions, or goals sync across all your devices signed in with the same iCloud account.
 
 The dual-sync system ensures you never lose data, whether your devices are together or apart, online or offline. Learn more in our [Sync & Data Guide](/docs/sync-and-data/).
-
-### How fast is instant sync?
-Changes appear on the other device in **less than 1 second**. Start a session on your iPhone, instantly see it on your Watch. Log food on your Watch, instantly see it on your iPhone. It's so fast you won't even notice the sync happening.
 
 ### Do I need internet for sync during activities?
 No! When your iPhone and Apple Watch are connected via Bluetooth (typical range: about 10 meters / 30 feet), instant sync works with **zero internet**. This is perfect for:
@@ -136,7 +122,7 @@ Yes. You can delete individual food items, run sessions, or all your data direct
 ## During Your Activity
 
 ### What if I forget to log something?
-After your activity, you can review your consumption log with timestamps. While you can't edit past entries in the current version, you can make notes for your analysis.
+After your activity, you can review your consumption log with timestamps. You can also  edit past entries to make your file reflect reality.
 
 ### How accurate is the hourly breakdown?
 Very accurate! FuelFlow tracks consumption down to the second and calculates rates based on actual elapsed time, not just rounded hours. This means if you're 30 minutes into hour 2, it calculates your rate based on 1.5 hours, not 2 hours.
@@ -145,7 +131,7 @@ Very accurate! FuelFlow tracks consumption down to the second and calculates rat
 Yes! Both the iPhone and Apple Watch show live progress bars for carbs, sodium, and water, displaying your current consumption versus your hourly goals. This works across all activity types.
 
 ### What if I forget to end my activity?
-No worries! You can end an activity at any time, even hours or days later. The app tracks the actual time you started, so your hourly calculations will still be accurate.
+No worries! You can end an activity at any time, even hours or days later. You can edit the end time by attaching a GPX or workout file to it, FuelFlow will adjust the start and end times to match.
 
 ---
 
@@ -164,7 +150,6 @@ The exported report includes:
 - Total consumption (carbs, sodium, water)
 - Overall average rates per hour
 - Detailed hourly breakdown
-- Segment data for multisport events
 - Complete consumption log with timestamps
 
 ### Can I compare multiple activities?
@@ -232,7 +217,6 @@ Absolutely! Use FuelFlow during your training sessions to:
 - Build your food library with your preferred nutrition
 - Dial in your hourly goals for different activity types
 - Practice logging while in motion
-- Test multisport transitions if doing triathlons
 
 ### What's the best way to use FuelFlow during long endurance events?
 1. **Pre-load your food library** with everything you plan to consume
@@ -240,7 +224,6 @@ Absolutely! Use FuelFlow during your training sessions to:
 3. **Set conservative goals** - it's better to over-fuel than under-fuel
 4. **Use the Apple Watch** for quick logging without stopping
 5. **Check your hourly breakdown** at aid stations or rest stops to adjust strategy
-6. **For triathlons**, continue logging through transitions
 7. **Don't stress over perfect logging** - it's a tool to help, not add pressure
 
 ### Can my crew, pacer, or support team help with logging?
@@ -249,7 +232,6 @@ While the app is designed for solo use, your support team can help by:
 - Checking your progress at aid stations or feed zones
 - Helping you adjust goals based on how you're feeling
 - Reviewing hourly data to identify fueling issues
-- For triathlons, tracking nutrition in transition areas
 
 ---
 
