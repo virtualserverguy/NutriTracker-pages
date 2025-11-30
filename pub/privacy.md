@@ -21,7 +21,6 @@ Your privacy is critically important to us. FuelFlow is designed with privacy as
 - Optional third-party integrations may involve temporary data transit through our servers (see "Third-Party Integrations" below)
 - No third-party data sharing or selling
 - No advertising or tracking
-- No analytics collection about your usage
 
 ---
 
@@ -43,7 +42,6 @@ When using FuelFlow, you create and manage the following data:
 - Location data
 - Health data beyond what you manually log
 - Device information or identifiers
-- Usage analytics or statistics
 - Crash reports (unless you opt-in through your device's operating system)
 
 ---
