@@ -36,10 +36,6 @@ See FuelFlow in action on iPhone and Apple Watch across different endurance acti
 ![Export Screenshot](/assets/images/screenshots/iphone-export.png)
 *Review past activities with detailed statistics and export reports for analysis or sharing with coaches. Includes activity type and segment data.*
 
-### Export Detail
-![Export Detail Screenshot](/assets/images/screenshots/iphone-export-detail.png)
-*Comprehensive activity reports including activity type, hourly breakdown, timestamps, and summary statistics.*
-
 ---
 
 ## Apple Watch App
@@ -47,18 +43,6 @@ See FuelFlow in action on iPhone and Apple Watch across different endurance acti
 ### Active Session - Progress
 ![Watch Active Session Screenshot](/assets/images/screenshots/watch-active-run.png)
 *Glance at your wrist to see current progress during any endurance activity. Color-coded rings show carbs (green), sodium (cyan), and water (blue).*
-
-### Quick Food Logging
-![Watch Food List Screenshot](/assets/images/screenshots/watch-food-list.png)
-*Log nutrition with one tap. No need to pull out your phone during your activity, whether running, cycling, or in transition.*
-
-### Water Logging
-![Watch Water Screenshot](/assets/images/screenshots/watch-water.png)
-*Quick water logging with preset amounts or custom entry.*
-
-### Activity Stats
-![Watch Stats Screenshot](/assets/images/screenshots/watch-stats.png)
-*View elapsed time, total consumption, and current hourly rates at a glance. Works across all activity types.*
 
 ---
 
@@ -88,11 +72,6 @@ Want to show off FuelFlow in your race reports or social media? Here's how to ca
 ### iPhone
 1. Press **Volume Up + Side Button** simultaneously
 2. Screenshot saves to Photos
-3. Find it in Photos app > Screenshots album
-
-### Apple Watch
-1. Press **Digital Crown + Side Button** simultaneously
-2. Screenshot saves to Photos on your iPhone
 3. Find it in Photos app > Screenshots album
 
 ---
