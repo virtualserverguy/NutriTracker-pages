@@ -421,6 +421,50 @@ img {
 }
 
 /* ================================
+   Screenshot Gallery
+   ================================ */
+
+/* Screenshots are constrained to reasonable heights */
+img[src*="screenshots/iphone"] {
+    max-height: 400px;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid var(--border-color);
+}
+
+img[src*="screenshots/watch"] {
+    max-height: 250px;
+    width: auto;
+    max-width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 1rem auto;
+    border: 1px solid var(--border-color);
+}
+
+/* Hover effect for screenshots */
+img[src*="screenshots/"]:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 25px rgba(255, 125, 121, 0.3);
+}
+
+/* Larger screenshots on bigger screens */
+@media (min-width: 768px) {
+    img[src*="screenshots/iphone"] {
+        max-height: 500px;
+    }
+
+    img[src*="screenshots/watch"] {
+        max-height: 300px;
+    }
+}
+
+/* ================================
    Horizontal Rules
    ================================ */
 
