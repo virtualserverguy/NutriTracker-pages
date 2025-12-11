@@ -1,10 +1,9 @@
 /* ================================
    FuelFlow Dark Theme - Mobile First
-   Alpenglow Color Palette Edition
+   Warm Energy Color Palette
 
-   Mountain sunrise/sunset inspired colors
-   matching the iOS/watchOS app theme.
-   See: Shared/AlpenglowColors.swift
+   Yellow-Orange-Red gradient inspired by
+   the FuelFlow app icon's energy bars.
    ================================ */
 
 :root {
@@ -15,36 +14,27 @@
     --text-primary: #e0e0e0;
     --text-secondary: #a0a0a0;
 
-    /* Alpenglow Color Palette - Mountain Sunrise/Sunset Inspired */
-    /* Dawn/Sunrise Colors */
-    --alpenglow-coral: #FF7D79;        /* Warm coral - Primary accent */
-    --alpenglow-peach: #FFB58F;        /* Soft peach - Secondary accent */
-    --alpenglow-warm-orange: #FF944A;  /* Warm orange - Call-to-action */
-    --alpenglow-golden: #FFD66A;       /* Golden hour - Highlights */
-
-    /* Sky Colors */
-    --alpenglow-lavender: #B59FD9;     /* Lavender - Calm, soothing */
-    --alpenglow-sky-blue: #87BFEB;     /* Sky blue - Fresh, energetic */
-    --alpenglow-deep-purple: #7A5CB6;  /* Deep purple - Depth */
-    --alpenglow-mountain-blue: #4A78BF; /* Mountain blue - Stable */
+    /* FuelFlow Brand Colors - Warm Energy Palette */
+    --fuelflow-golden: #FFD200;        /* Bright golden yellow - Energy, vitality */
+    --fuelflow-orange: #FFA500;        /* Warm orange - Enthusiasm, action */
+    --fuelflow-tangerine: #FF8C00;     /* Deep orange - Warmth, motivation */
+    --fuelflow-coral: #FF5252;         /* Vibrant coral red - Passion, power */
+    --fuelflow-red: #E53935;           /* Deep red - Intensity, urgency */
 
     /* Semantic Mappings */
-    --accent-primary: var(--alpenglow-coral);
-    --accent-secondary: var(--alpenglow-warm-orange);
-    --accent-green: var(--alpenglow-golden);
-    --accent-cyan: var(--alpenglow-sky-blue);
-    --accent-blue: var(--alpenglow-mountain-blue);
-    --accent-lavender: var(--alpenglow-lavender);
+    --accent-primary: var(--fuelflow-coral);
+    --accent-secondary: var(--fuelflow-orange);
+    --accent-highlight: var(--fuelflow-golden);
+    --accent-intense: var(--fuelflow-red);
 
     --border-color: #333;
     --shadow: rgba(0, 0, 0, 0.5);
 
-    /* Alpenglow Gradients */
-    --gradient-sunrise: linear-gradient(135deg, var(--alpenglow-coral), var(--alpenglow-peach), var(--alpenglow-golden));
-    --gradient-sunset: linear-gradient(90deg, var(--alpenglow-warm-orange) 0%, var(--alpenglow-coral) 50%, var(--alpenglow-deep-purple) 100%);
-    --gradient-sky: linear-gradient(180deg, var(--alpenglow-lavender), var(--alpenglow-sky-blue));
-    --gradient-mountain: linear-gradient(135deg, var(--alpenglow-deep-purple), var(--alpenglow-mountain-blue));
-    --gradient-dawn: linear-gradient(180deg, var(--alpenglow-deep-purple), var(--alpenglow-lavender), var(--alpenglow-peach), var(--alpenglow-golden));
+    /* FuelFlow Gradients - Matching App Icon Energy Bars */
+    --gradient-energy: linear-gradient(135deg, var(--fuelflow-golden), var(--fuelflow-orange), var(--fuelflow-coral));
+    --gradient-fuel: linear-gradient(90deg, var(--fuelflow-golden) 0%, var(--fuelflow-tangerine) 50%, var(--fuelflow-red) 100%);
+    --gradient-warmth: linear-gradient(180deg, var(--fuelflow-golden), var(--fuelflow-coral));
+    --gradient-intensity: linear-gradient(135deg, var(--fuelflow-orange), var(--fuelflow-red));
 }
 
 * {
@@ -89,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
     font-size: 2rem;
-    background: var(--gradient-sunrise);
+    background: var(--gradient-energy);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -175,9 +165,22 @@ strong {
 }
 
 .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+    border-radius: 8px;
+    margin: 0;
+}
+
+.logo-text {
     font-size: 1.5rem;
     font-weight: 700;
-    background: var(--gradient-sunrise);
+    background: var(--gradient-energy);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -304,7 +307,7 @@ article {
 }
 
 .btn-primary {
-    background: var(--gradient-sunset);
+    background: var(--gradient-fuel);
     background-size: 100% 100%;
     background-position: center;
     color: white;
@@ -312,7 +315,7 @@ article {
 
 .btn-primary:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 25px rgba(255, 125, 121, 0.5);
+    box-shadow: 0 10px 25px rgba(255, 82, 82, 0.5);
 }
 
 .btn-secondary {
@@ -450,7 +453,7 @@ img[src*="screenshots/watch"] {
 /* Hover effect for screenshots */
 img[src*="screenshots/"]:hover {
     transform: scale(1.02);
-    box-shadow: 0 8px 25px rgba(255, 125, 121, 0.3);
+    box-shadow: 0 8px 25px rgba(255, 82, 82, 0.3);
 }
 
 /* Larger screenshots on bigger screens */
