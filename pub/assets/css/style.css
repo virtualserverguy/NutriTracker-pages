@@ -570,6 +570,53 @@ hr {
 .mb-4 { margin-bottom: 3rem; }
 
 /* ================================
+   App Store Badges
+   ================================ */
+
+.store-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin: 1.5rem 0;
+    overflow: visible;
+}
+
+.store-badges a {
+    display: inline-block;
+    transition: opacity 0.2s ease;
+}
+
+.store-badges a:hover {
+    opacity: 0.8;
+}
+
+.store-badge {
+    height: 40px;
+    width: auto;
+    border-radius: 0;
+    margin: 0;
+    border: none;
+}
+
+/* Google Play badge has extra padding built in, so scale it up */
+.store-badge[alt*="Google Play"] {
+    height: 60px;
+    margin: -10px 0;
+}
+
+@media (min-width: 768px) {
+    .store-badge {
+        height: 50px;
+    }
+
+    .store-badge[alt*="Google Play"] {
+        height: 74px;
+        margin: -12px 0;
+    }
+}
+
+/* ================================
    Animations
    ================================ */
 
