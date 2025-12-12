@@ -49,6 +49,8 @@ Gemfile.lock
 /.bundle/
 /vendor/bundle
 /lib/bundler/man/
+pub/.bundle/
+pub/vendor/
 
 # RVM & rbenv
 .rvmrc
