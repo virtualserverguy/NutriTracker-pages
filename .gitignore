@@ -46,8 +46,8 @@ Gemfile.lock
 /tmp/
 
 # Bundler
-/.bundle/
-/vendor/bundle
+.bundle/
+vendor/
 /lib/bundler/man/
 
 # RVM & rbenv
